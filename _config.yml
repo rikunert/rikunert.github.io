@@ -2,7 +2,7 @@
 permalink:           pretty
 
 # Setup
-title:               Kunert Data Science
+title:               Richard's Data Science
 tagline:             Understanding the world through data
 url:                 rikunert.github.io
 paginate:            1
@@ -24,7 +24,7 @@ author:
 # Custom vars
 version:             2.0.0
 github:              https://github.com/rikunert
-  repo:              https://github.com/rikunert/rikunert.github.io
+repo:              https://github.com/rikunert/rikunert.github.io
 
 # Gems
 gems:
