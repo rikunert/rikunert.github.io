@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Kunert Data Science
+tagline:             Understanding the world through data
+url:                 rikunert.github.io
 paginate:            1
 baseurl:             ""
 
@@ -17,13 +17,13 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Richard Kunert
+  url:               https://twitter.com/rikunert
+  email:             rikunert@gmail.com
 
 # Custom vars
 version:             2.0.0
-github:
+github:              https://github.com/rikunert/rikunert.github.io
   repo:              https://github.com/poole/poole
 
 # Gems
