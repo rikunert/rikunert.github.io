@@ -10,6 +10,15 @@ So, it won't suprise you that my first python data project is a Star Trek projec
 
 **Which one is the best Star Trek movie?** 
 
+The short answer is [Star Trek](http://www.imdb.com/title/tt0796366/) of the 2009 reboot.
+[Star Trek II The wrath of Khan](http://www.imdb.com/title/tt0084726/?ref_=nv_sr_2) and 
+[Star Trek: First Contact](http://www.imdb.com/title/tt0117731/?ref_=nv_sr_1) follow closely behind.
+How I arrive at this judgement is detailed below in the figure. This blog post details how I made this figure. 
+
+>Data, the final frontier. These are the adventures of a data scientists. 
+>His continuing mission to explore strange new patterns, to seek out new insights and new visualisations,
+>to boldly find out what no one has found out before...
+
 ![alt text](https://github.com/rikunert/Star_Trek_ratings/raw/master/Star_Trek_movie_ratings_dates.png "The final figure")
 
 ## Data acquisition: using IMDb API and web scraping
