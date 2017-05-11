@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: Using Python, the IMDb API, and web-scraping rotten tomatoes to find the best Star Trek movie (in 120 lines of code)
 ---
 

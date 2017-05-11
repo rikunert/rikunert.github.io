@@ -6,7 +6,7 @@ title:               Richard's Data Science
 tagline:             Understanding the world through data
 url:                 rikunert.github.io
 paginate:            1
-baseurl:             ""
+baseurl:             "" #http://github.com/rikunert/rikunert.github.io/
 
 # Assets
 #
@@ -24,9 +24,15 @@ author:
 # Custom vars
 version:             2.0.0
 github:              https://github.com/rikunert
-repo:              https://github.com/rikunert/rikunert.github.io
+repo:                https://github.com/rikunert/rikunert.github.io
 
 # Gems
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+future:               true
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
