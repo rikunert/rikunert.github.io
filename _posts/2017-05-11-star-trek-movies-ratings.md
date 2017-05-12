@@ -1,25 +1,29 @@
 ---
 layout: post
 published: true
-title: Using Python, the IMDb API, and web-scraping rotten tomatoes to find the best Star Trek movie (in 120 lines of code)
+permalink: star_trek_movies
+comments: true
+
+title: Using Python, the IMDb API, and web-scraping rotten tomatoes to find the best Star Trek movie
+subtitle: 120 lines of code 
+tags: [data science, python, web scraping, IMDb, API, rotten tomatoes, metacritic, visualisation, ggplot, matplotlib]
+lead: Star Trek is a very rare positive vision of the future. Which movie captures the audience the most with this hopeful message? I learned python to sample all the movie ratings I could find in order to answer this question. If you follow this guide, so can you.
 ---
 
-I've been an avid Star Trek fan ever since high school. It never left me.
-Throughout my PhD I've had the Enterprise as my desktop background.
-So, it won't suprise you that my first python data project is a Star Trek project. 
+![alt text](https://github.com/rikunert/Star_Trek_ratings/raw/master/Star_Trek_movie_ratings_dates.png "The final figure")
+
+<!--excerpt-->
 
 **Which one is the best Star Trek movie?** 
 
 The short answer is [Star Trek](http://www.imdb.com/title/tt0796366/) of the 2009 reboot.
-[Star Trek II The wrath of Khan](http://www.imdb.com/title/tt0084726/?ref_=nv_sr_2) and 
+[Star Trek II: The wrath of Khan](http://www.imdb.com/title/tt0084726/?ref_=nv_sr_2) and 
 [Star Trek: First Contact](http://www.imdb.com/title/tt0117731/?ref_=nv_sr_1) follow closely behind.
-How I arrive at this judgement is detailed below in the figure. This blog post details how I made this figure. 
+How I arrive at this judgement is detailed above in the figure and below in the post. 
 
 >Data, the final frontier. These are the adventures of a data scientists. 
 >His continuing mission to explore strange new patterns, to seek out new insights and new visualisations,
 >to boldly find out what no one has found out before...
-
-![alt text](https://github.com/rikunert/Star_Trek_ratings/raw/master/Star_Trek_movie_ratings_dates.png "The final figure")
 
 ## Data acquisition: using IMDb API and web scraping
 
@@ -34,13 +38,9 @@ from ggplot import *  # for plotting
 import urllib2  # for accessing url object (movie covers)
 import matplotlib.pyplot as plt  # for plotting
 from matplotlib.offsetbox import (OffsetImage, AnnotationBbox)
-
-# global variables
-work_dir = 'C:\Users\Richard\Desktop\python\IMDb_analyses\Star Trek'
 ```
 
 Next, we sample all Star Trek movies. We shall use the IMDb search function for that. 
-So, we first create an IMDb-py API object and use that to search. 
 ```python
 imdb_http = imdb.IMDb()  # create imdb API object
 StarTrek = imdb_http.search_movie('Star Trek')  # general search for Star Trek among movie and series titles
@@ -100,9 +100,7 @@ for i in range(len(STF)):  # for each Star Trek movie
 At this point one might want to save the data, for example by calling `df.to_csv('Star_Trek_movie_data.csv', sep=';')`. 
 The result can be downloaded [here](https://github.com/rikunert/Star_Trek_ratings/blob/master/Star_Trek_movie_data.csv).
 
-##Data visualisation: using ggplot and matplotlib
-
-Let's make a nice plot of movies organised according to their release date, showing their ratings.
+## Data visualisation: using ggplot and matplotlib
 
 I start off by using the `ggplot` module as I am very familiar with the syntax from **R**.
 
@@ -136,11 +134,11 @@ plt.text(2017.5, 3.75, 'Rotten\nTomatoes\nusers', color='blue')  # keep figure o
 plt.text(2017.5, 3.4, 'IMDb users', color='orange')  # keep figure open for this to work
 plt.text(2017.5, 3.2, 'Metacritic', color='purple')  # keep figure open for this to work
 ```
-The result is already more intuitively understandable:
+The result:
 
 ![alt text](https://github.com/rikunert/Star_Trek_ratings/raw/master/Star_Trek_movie_ratings_dates_interim2.png "Interim figure")
 
-Next, I was looking for an intuitive way to explain which movie is where.
+How to tell the viewer which movie is where?
 The film posters are the easiest way to achieve this. 
 
 Including an image in a plot is not straight forward. 
@@ -150,7 +148,7 @@ First off though, we need the drawing area called axes or `ax`.
 ```python
 ax = plt.gca()
 ```
-Next we define a new function to place an image from `url` at the coordinates `xy` 
+Next we define a new function `add_image()` to place an image from `url` at the coordinates `xy` 
 of drawing area `ax_` with the image zoom `imzoom`. 
 ```python
 def add_image(ax_, url, xy, imzoom):
@@ -177,7 +175,7 @@ I think the x-axis could be simplified.
 ```python
 ax.xaxis.set_ticks(range(1980, 2020, 10))  # minimal x-axis style
 ```
-And the y-axis be completely replaced by intuitive star symbols.
+I replcae the y-axis by star symbols. All in the interest of avoiding text.
 ```python
 ax.yaxis.set_visible(False)  # no numerical y-axis at all
 add_image(ax, 'grey_star.jpg', [1975, 0], 0.05)  # zero stars on sort of y-axis
@@ -196,7 +194,7 @@ ax.annotate('The absolute worst movie:\n' + df[df['IMDb_rating'] == min(df['IMDb
 
 ![alt text](https://github.com/rikunert/Star_Trek_ratings/raw/master/Star_Trek_movie_ratings_dates_interim5.png "Interim figure")
 
-Finally, the figure dimensions are not optimalised for social media like twitter. 
+Finally, the figure dimensions are not optimised for social media like twitter. 
 And the margins are simply too big. The last statements deal with these problems 
 ```python
 fig = plt.gcf()  # get current figure to show it
@@ -204,3 +202,5 @@ fig.set_size_inches(1024 / 70, 512 / 70)  # reset the figure size to twitter sta
 fig.savefig('Star Trek movie ratings_dates.png', dpi=96, bbox_inches='tight')  # save figure
 ```
 ![alt text](https://github.com/rikunert/Star_Trek_ratings/raw/master/Star_Trek_movie_ratings_dates.png "The final figure")
+
+{% include twitter_plug.html %}
