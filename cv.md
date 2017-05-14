@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cv
 title: Richard Kunert's CV
 ---
 # Richard Kunert, PhD
