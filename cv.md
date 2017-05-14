@@ -14,12 +14,27 @@ Cognitive Neuroscience PhD and Data Scientist
 |
 <i class="fa fa-google"></i> <a href="http://scholar.google.com/citations?user=V2EGJ3UAAAAJ">scholar</a>
 |
-<i class="fa fa-rss-square"></i> <a href="http://rikunert.com">scholar</a>
+<i class="fa fa-rss-square"></i> <a href="http://rikunert.com">rikunert.com</a>
 </div>
 
 ## Currently
 
 I'm a Cognitive Neuroscientist looking for new challenges in Data Science.
+
+
+## Key skills
+
+### independent problem solving
+
+I finished my PhD in time and in budget with minimal supervision. I furthermore finished two scientific projects on the side, [one](http://link.springer.com/article/10.3758/s13423-016-1030-9/fulltext.html) re-using public data, [one](http://pubman.mpdl.mpg.de/pubman/item/escidoc:2355026:6/component/escidoc:2380816/Kunert_Jongman_2016.pdf) with self-acquired grant money. I overcame challenges along the way through collaboration, creativity, and sheer perseverance. Never afraid to exand my horizon, I acquired programming skills such as git, shiny, and python without any supervision after leaving academia.
+
+### team work
+
+I function in a great variety of social settings, and in many roles. During my PhD I headed and was fully responsible for every international collaboration associated with my projects. Moreover, I joined the editorial board of the Donders Institute blog, overseeing its long term strategy and social media activities. I enjoy meeting new people, as I did at academic conferences, and forming a network which benefits everyone involved, see my guide for [guide to excel at conferences](https://brainsidea.wordpress.com/2016/08/04/how-to-excel-at-academic-conferences-in-5-steps/).
+
+### targeted communication
+
+I have excellent language skills in German, English, and Dutch. I used to write for widely read and recommended science blogs in Dutch ([Donders Wonders](http://blog.donders.ru.nl/?page_id=779)) and English (([Brain's Idea](http://brainsidea.wordpress.com/))). I now author a data science blog at [rikunert.com](http://rikunert.com). Furthermore, I have authored seven scientific articles and translated each into a lay summary, see details [here](http://rikunert.com/publications/).
 
 ## Employment
 
@@ -31,7 +46,6 @@ __Max Planck Institute for Psycholinguistics__ PhD candidate
 
 `01/2012-04/2012`
 __University of Amsterdam__ Research assistant
-
 
 ## Education
 
@@ -54,12 +68,12 @@ Ten international conference presentations on the cogntive neuroscience of langu
 
 `2012-`
 Popular science activities including
-* the [Donders Institute blog](http://blog.donders.ru.nl/?page_id=779)
-* my personal blog ([Brain's Idea](http://brainsidea.wordpress.com/))
-* touring with [Muziekgezelschap Ludwig](http://www.ludwiglive.nl/brainwaves/brainwave-1-felix-meritis/)  
+* the [Donders Institute blog](http://blog.donders.ru.nl/?page_id=779) about the mind and brain
+* my personal blog ([Brain's Idea](http://brainsidea.wordpress.com/)) about the mind and brain
+* touring with [Muziekgezelschap Ludwig](http://www.ludwiglive.nl/brainwaves/brainwave-1-felix-meritis/) to tell the public about music and language in the brain
 
 
-## Technical skills
+## Programming experience
 
 * R (countless examples from both neuroscience and data science, see [github profile](http://github.com/rikunert/))
 * Shiny (see [example](https://rikunert.shinyapps.io/PLOS_ALM/))
@@ -68,13 +82,6 @@ Popular science activities including
 * Python (see [example](http://rikunert.com))
 * Data visualisation (see countless examples in my scientific publications and on [rikunert.com](http://rikunert.com))
 * Matlab (see [example](http://rsos.royalsocietypublishing.org/content/3/2/150685.figures-only))
-
-## Projects
-
-### blog
-
-I write a data science blog at [rikunert.com](http://rikunert.com) where I apply R and Python to open datasets
- and write-up the results as data science tutorials.
 
 ## Awards
 
