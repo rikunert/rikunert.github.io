@@ -30,19 +30,19 @@ I finished my PhD in time and in budget with minimal supervision. I furthermore 
 
 ### team work
 
-I function in a great variety of social settings, and in many roles. During my PhD I headed and was fully responsible for every international collaboration associated with my projects. Moreover, I joined the editorial board of the Donders Institute blog, overseeing its long term strategy and social media activities. I enjoy meeting new people, as I did at academic conferences, and forming a network which benefits everyone involved, see my guide for [guide to excel at conferences](https://brainsidea.wordpress.com/2016/08/04/how-to-excel-at-academic-conferences-in-5-steps/).
+I function in a great variety of social settings, and in many roles. During my PhD I headed and was fully responsible for every international collaboration associated with my projects. Moreover, I joined the editorial board of the Donders Institute blog, overseeing its long term strategy and social media activities. I enjoy meeting new people, as I did at academic conferences, and forming a network which benefits everyone involved, see my [guide to excel at conferences](https://brainsidea.wordpress.com/2016/08/04/how-to-excel-at-academic-conferences-in-5-steps/).
 
 ### targeted communication
 
-I have excellent language skills in German, English, and Dutch. I used to write for widely read and recommended science blogs in Dutch ([Donders Wonders](http://blog.donders.ru.nl/?page_id=779)) and English (([Brain's Idea](http://brainsidea.wordpress.com/))). I now author a data science blog at [rikunert.com](http://rikunert.com). Furthermore, I have authored seven scientific articles and translated each into a lay summary, see details [here](http://rikunert.com/publications/).
+I have excellent language skills in German, English, and Dutch. I used to write for widely read and recommended science blogs in Dutch ([Donders Wonders](http://blog.donders.ru.nl/?page_id=779)) and English ([Brain's Idea](http://brainsidea.wordpress.com/)). I now author a data science blog at [rikunert.com](http://rikunert.com). Furthermore, I have authored seven scientific articles and translated each into a lay summary, see details [here](http://rikunert.com/publications/).
 
 ## Employment
 
-`10/2015-04/2016`
-__Dutch Science Funding Council (NWO)__ Junior Policy Officer
-
 `01/2013-08/2016`
 __Max Planck Institute for Psycholinguistics__ PhD candidate
+
+`10/2015-04/2016`
+__Dutch Science Funding Council (NWO)__ Junior Policy Officer
 
 `01/2012-04/2012`
 __University of Amsterdam__ Research assistant
@@ -73,9 +73,9 @@ Popular science activities including
 * touring with [Muziekgezelschap Ludwig](http://www.ludwiglive.nl/brainwaves/brainwave-1-felix-meritis/) to tell the public about music and language in the brain
 
 
-## Programming experience
+## Data science experience
 
-* R (countless examples from both neuroscience and data science, see [github profile](http://github.com/rikunert/))
+* R (countless examples from both neuroscience and wider data science, see [github profile](http://github.com/rikunert/))
 * Shiny (see [example](https://rikunert.shinyapps.io/PLOS_ALM/))
 * Statistics (frequentist and Bayesian)
 * Git
