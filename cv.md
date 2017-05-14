@@ -5,15 +5,6 @@ title: Richard Kunert's CV
 # Richard Kunert, PhD
 Cognitive Neuroscience PhD and Data Scientist
 
-<div id="webaddress">
-<a href="mailto:rikunert@gmail.com">rikunert@gmail.com</a>
-|
-<i class="fa fa-github"></i> <a href="http://github.com/rikunert">rikunert</a>
-|
-<i class="fa fa-twitter"></i> <a href="http://twitter.com/rikunert">@rikunert</a>
-</div>
-
-
 ## Currently
 
 I'm a Cognitive Neuroscientist looking for new challenges in Data Science.
@@ -73,13 +64,6 @@ Popular science activities including
 I write a data science blog at [rikunert.com](http://rikunert.com) where I apply R and Python to open datasets
  and write-up the results as data science tutorials.
 
-### EdinbR
-I co-founded a usergroup for the R programming language in Edinburgh called EdinbR. I help to organise our monthly meetings and built our website: [edinbr.org](http://edinbr.org). Our meetings attract 30-50 statisticians, data scientists and developers for talks and discussion about the R language and its applications. We're sponsored by Revolution Analytics and have an organisational github account at [github.com/EdinbR](https://github.com/EdinbR).
-
-### datarea
-
-I entered Imperial College's [Summer Data Challenge](https://www.imperial.ac.uk/data-science/education/summer-data-challenge/) competition, where entrants analysed a given dataset and then proposed a startup idea based on their results. I developed a modelling technique to select housing areas for investment and was awarded third place: £2,000 and startup support from Imperial Create Lab. My entry can be seen at [blm.io/datarea](http://blm.io/datarea) and the code is shared on my github account.
-
 ## Awards
 
 `06/2010`
@@ -101,12 +85,6 @@ Wellcome Trust Vacation Scholarship for Summer Research
 Robert H. Thouless Prize for Best Critical Review
 
 ## Links
-
-* <i class="fa fa-envelope"></i> <a href="mailto:rikunert@gmail.com">rikunert@gmail.com</a><br />
-* <i class="fa fa-github"></i> <a href="http://github.com/rikunert">rikunert</a><br />
-* <i class="fa fa-rss-square"></i> <a href="http://rikunert.com">rikunert.com</a><br />
-* <i class="fa fa-twitter"></i> <a href="http://twitter.com/rikunert">@rikunert</a><br />
-* <i class="fa fa-google"></i> <a href="http://scholar.google.com/citations?user=V2EGJ3UAAAAJ">scholar</a>
 
 ## References
 
