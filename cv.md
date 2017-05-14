@@ -98,4 +98,6 @@ Robert H. Thouless Prize for Best Critical Review
 
 Available on request.
 
-*Last updated: May 2017*
+<!-- ### Footer
+
+Last updated: May 2017 -->
