@@ -11,6 +11,10 @@ Cognitive Neuroscience PhD and Data Scientist
 <i class="fa fa-github"></i> <a href="http://github.com/rikunert">rikunert</a>
 |
 <i class="fa fa-twitter"></i> <a href="http://twitter.com/rikunert">@rikunert</a>
+|
+<i class="fa fa-google"></i> <a href="http://scholar.google.com/citations?user=V2EGJ3UAAAAJ">scholar</a>
+|
+<i class="fa fa-rss-square"></i> <a href="http://rikunert.com">scholar</a>
 </div>
 
 ## Currently
@@ -92,12 +96,8 @@ Wellcome Trust Vacation Scholarship for Summer Research
 `06/2010`
 Robert H. Thouless Prize for Best Critical Review
 
-## Links
-
 ## References
 
 Available on request.
 
-<!-- ### Footer
-
-Last updated: May 2017 -->
+*Last updated: May 2017*
