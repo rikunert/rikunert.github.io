@@ -34,8 +34,8 @@ gems:
 future:               true
 pages_list:
   About: '/about'
-  CV: '/CV'
-  Publications: '/Publications'
+  CV: '/cv'
+  Publications: '/publications'
   Archive: '/archive'
   Feed: '/atom.xml'
 excerpt_separator: "<!--excerpt-->"
