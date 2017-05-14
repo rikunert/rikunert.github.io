@@ -24,17 +24,21 @@ I'm a Cognitive Neuroscientist looking for new challenges in Data Science.
 
 ## Key skills
 
-### independent problem solving
+### Critical analysis
 
-I finished my PhD in time and in budget with minimal supervision. I furthermore finished two scientific projects on the side, [one](http://link.springer.com/article/10.3758/s13423-016-1030-9/fulltext.html) re-using public data, [one](http://pubman.mpdl.mpg.de/pubman/item/escidoc:2355026:6/component/escidoc:2380816/Kunert_Jongman_2016.pdf) with self-acquired grant money. I overcame challenges along the way through collaboration, creativity, and sheer perseverance. Never afraid to exand my horizon, I acquired programming skills such as git, shiny, and python without any supervision after leaving academia.
+Data analysis results can be misleading, requiring a critical eye which looks beyond the surface aesthetics to question the underlying dynamics. For example, by digging deeper in a published data set, I have revealed signs of questionable research practices, see [publication](http://link.springer.com/article/10.3758/s13423-016-1030-9/fulltext.html). Moreover, in [a recent data science project](https://brainsidea.wordpress.com/2017/03/01/the-slowing-down-of-the-biggest-scientific-journal/), I explored why the biggest scientific journal is in decline when most journals are expanding. These are just two examples for how I work: fast, creatively, critically.
 
-### team work
+### Independent problem solving
 
-I function in a great variety of social settings, and in many roles. During my PhD I headed and was fully responsible for every international collaboration associated with my projects. Moreover, I joined the editorial board of the Donders Institute blog, overseeing its long term strategy and social media activities. I enjoy meeting new people, as I did at academic conferences, and forming a network which benefits everyone involved, see my [guide to excel at conferences](https://brainsidea.wordpress.com/2016/08/04/how-to-excel-at-academic-conferences-in-5-steps/).
+There many different kinds of PhD. Mine was done with only minimal supervision. I finished it on time and in budget. I furthermore finished two scientific projects on the side, [one](http://link.springer.com/article/10.3758/s13423-016-1030-9/fulltext.html) re-using public data, [one](http://pubman.mpdl.mpg.de/pubman/item/escidoc:2355026:6/component/escidoc:2380816/Kunert_Jongman_2016.pdf) with self-acquired grant money. I overcame challenges along the way through collaboration, creativity, and sheer perseverance. Never afraid to exand my horizon, I acquired programming skills such as git, shiny, and python without any supervision after leaving academia.
 
-### targeted communication
+### Team work
 
-I have excellent language skills in German, English, and Dutch. I used to write for widely read and recommended science blogs in Dutch ([Donders Wonders](http://blog.donders.ru.nl/?page_id=779)) and English ([Brain's Idea](http://brainsidea.wordpress.com/)). I now author a data science blog at [rikunert.com](http://rikunert.com). Furthermore, I have authored seven scientific articles and translated each into a lay summary, see details [here](http://rikunert.com/publications/).
+I function in a great variety of social settings, and in many roles. During my PhD I headed and was fully responsible for every international collaboration associated with my projects. Moreover, I joined the editorial board of the Donders Institute blog, overseeing its long term strategy and social media activities. I enjoy meeting new people, as I did at academic conferences, and forming a network which benefits those involved, see my [guide to excel at conferences](https://brainsidea.wordpress.com/2016/08/04/how-to-excel-at-academic-conferences-in-5-steps/).
+
+### Targeted communication
+
+Thanks to my international background, I have excellent language skills in German, English, and Dutch. I used to write for widely read and recommended science blogs in Dutch ([Donders Wonders](http://blog.donders.ru.nl/?page_id=779)) and English ([Brain's Idea](http://brainsidea.wordpress.com/)). I now author a data science blog at [rikunert.com](http://rikunert.com). Furthermore, I have authored seven scientific articles and translated each into a lay summary, see details [here](http://rikunert.com/publications/).
 
 ## Employment
 
