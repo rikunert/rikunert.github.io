@@ -5,6 +5,14 @@ title: Richard Kunert's CV
 # Richard Kunert, PhD
 Cognitive Neuroscience PhD and Data Scientist
 
+<div id="webaddress">
+<a href="mailto:rikunert@gmail.com">rikunert@gmail.com</a>
+|
+<i class="fa fa-github"></i> <a href="http://github.com/rikunert">rikunert</a>
+|
+<i class="fa fa-twitter"></i> <a href="http://twitter.com/rikunert">@rikunert</a>
+</div>
+
 ## Currently
 
 I'm a Cognitive Neuroscientist looking for new challenges in Data Science.
