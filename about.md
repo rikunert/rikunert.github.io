@@ -6,7 +6,7 @@ title: About
 ![alt text](https://github.com/rikunert/rikunert.github.io/raw/master/pictures/RichardKunert_002_MvD_small-300x300.jpg "Richard Kunert, PhD")
 
 
-Interested in data science? Welcome to RichData. 
+Interested in data science? Welcome to Rich Data. 
 
 I did my PhD in the neurosciences of music and language at the [Max Planck Institute 
 for Psycholinguistics](http://www.mpi.nl/) in Nijmegen (The Netherlands). 
