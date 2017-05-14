@@ -42,7 +42,7 @@ Watch me:
 
 Accessible version for lay people: 
 
-[How languages changes the way you hear music](https://brainsidea.wordpress.com/2016/02/09/how-language-changes-the-way-you-hear-music/)
+[How language changes the way you hear music](https://brainsidea.wordpress.com/2016/02/09/how-language-changes-the-way-you-hear-music/)
 
 ***
 

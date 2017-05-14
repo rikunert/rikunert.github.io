@@ -21,7 +21,7 @@ My previous blog, [Brain's Idea](https://brainsidea.wordpress.com/), ran from Ja
 It earned accolades such as being featured on wordpress Freshly Pressed, the BPS research digest (twice), and the Smithsonian magazine. 
 Its posts show how my interests gradually shifted from psychological science to data science. 
 At some point, a new topic asked for a new infrastructure and name. 
-And so RichData was born.
+And so Rich Data was born.
 
 ***
 Comments, suggestions, job offers? Please get in touch with me on twitter ([@rikunert](https://twitter.com/rikunert)) or via e-mail (rikunert AT gmail DOT com).
