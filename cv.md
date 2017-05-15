@@ -68,12 +68,12 @@ __Glasgow University__ MA Psychology (_First class honours_)
 Seven international, peer-reviewed, publications. Details: [rikunert.com/publications/](http://rikunert.com/publications/)
 
 `2010-2016`
-Ten international conference presentations on the cogntive neuroscience of language and music
+Ten international conference presentations on the cognitive neuroscience of language and music
 
 `2012-`
 Popular science activities including
-* the [Donders Institute blog](http://blog.donders.ru.nl/?page_id=779) about the mind and brain
-* my personal blog ([Brain's Idea](http://brainsidea.wordpress.com/)) about the mind and brain
+* the [Donders Institute blog](http://blog.donders.ru.nl/?page_id=779) about mind & brain
+* my personal blog ([Brain's Idea](http://brainsidea.wordpress.com/)) about mind & brain
 * touring with [Muziekgezelschap Ludwig](http://www.ludwiglive.nl/brainwaves/brainwave-1-felix-meritis/) to tell the public about music and language in the brain
 
 
