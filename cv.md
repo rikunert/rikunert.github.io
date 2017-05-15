@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Richard Kunert's CV
+title: Richard Kunert, PhD
 ---
 # Richard Kunert, PhD
 Cognitive Neuroscience PhD and Data Scientist

@@ -54,7 +54,7 @@ table {
 
 body {
 	font: normal normal 400;
-	font-size: 80%;
+	font-size: 90%;
 	line-height: 1.5em;
 	/* font-family: Verdana, sans-serif; */
 	font-family: "Open sans", sans-serif;
@@ -72,14 +72,14 @@ p {
 
 code {
 	font: normal normal;
-	font-size: 90%;
+	font-size: 100%;
 	font-family: Menlo, monospace, sans-serif;
 	color: #aaa;
 }
 
 p code {
 	position: absolute;
-	left: -19%;
+	left: -20%;
 }
 
 
@@ -118,7 +118,7 @@ h1 {
 	line-height: 1em;
 	position: relative;
 	margin-top: 2em;
-	left: 25%;
+	left: 30%;
 	/* padding: .1rem 1rem; */
   text-shadow: 1px 1px #fff,
       					1px 2px #ccc;
@@ -128,7 +128,7 @@ h1+p {
 	/*subtitle*/
 	color: #1D49A0;
 	font-style: italic;
-	font-size: 110%;
+	font-size: 130%;
 	line-height: 2em;
 	margin-top: 0.5em;
 	margin-bottom: 0em !important;
@@ -152,7 +152,7 @@ h3 {
 	position: relative;
 	top: 1.7em;
 	text-align: right;
-	width: 15%;
+	width: 25%;
 }
 
 a {
@@ -167,10 +167,10 @@ a:hover {
 #webaddress {
 	margin-top: 0em;
 	position: relative;
-  margin-left: 25%;
+  margin-left: 30%;
 	color: #aaa;
 	font-family: Menlo,monospace,sans-serif;
-	font-size: 80%;
+	font-size: 90%;
 }
 
 #webaddress a {
