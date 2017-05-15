@@ -17,8 +17,8 @@ lead: Star Trek is a very rare positive vision of the future. Which movie captur
 **Which one is the best Star Trek movie?** 
 
 The short answer is [Star Trek](http://www.imdb.com/title/tt0796366/) of the 2009 reboot. 
-The top five Star Trek movies according to an average of user ratings on IMDb and rotten tomatoes as well 
-critic ratings aggregated by metacritic and rotten tomatoes are:  
+The top five Star Trek movies according to an average of user ratings on IMDb and rotten tomatoes as well as
+critics' ratings aggregated by metacritic and rotten tomatoes are:  
 
 Movie | average rating
 --------|----------
