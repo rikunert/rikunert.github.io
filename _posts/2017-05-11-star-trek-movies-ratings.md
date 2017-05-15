@@ -16,10 +16,25 @@ lead: Star Trek is a very rare positive vision of the future. Which movie captur
 
 **Which one is the best Star Trek movie?** 
 
-The short answer is [Star Trek](http://www.imdb.com/title/tt0796366/) of the 2009 reboot.
-[Star Trek II: The wrath of Khan](http://www.imdb.com/title/tt0084726/?ref_=nv_sr_2) and 
-[Star Trek: First Contact](http://www.imdb.com/title/tt0117731/?ref_=nv_sr_1) follow closely behind.
-How I arrive at this judgement is detailed above in the figure and below in the post. 
+The short answer is [Star Trek](http://www.imdb.com/title/tt0796366/) of the 2009 reboot. 
+The top five Star Trek movies according to an average of user ratings on IMDb and rotten tomatoes as well 
+critic ratings aggregated by metacritic and rotten tomatoes are:  
+
+Movie | average rating
+--------|----------
+[Star Trek (2009)]((http://www.imdb.com/title/tt0796366/)) | 4.32 stars
+[Star Trek: First Contact]((http://www.imdb.com/title/tt0117731/?ref_=nv_sr_1)) | 4.08 stars
+[Star Trek Into Darkness](http://www.imdb.com/title/tt1408101/) | 4.04 stars
+[Star Trek II: The Wrath of Khan](http://www.imdb.com/title/tt0084726/?ref_=nv_sr_2) | 4.04 stars
+[Star Trek IV: The Voyage Home](http://www.imdb.com/title/tt0092007/?ref_=fn_al_tt_1) | 3.79 stars
+
+To many trekkies the entries for First Contact and the Wrath of Khan won't come as a surprise. 
+These movies are generally regarded as high points in the franchise. 
+However, what astonished me was just how successful the 2009 reboot was. 
+Star Trek never before managed to churn out three decent movies in a row. 
+There is hope that the next film will be a similarly good. 
+
+How you can get at all this information is shown in this blog post. 
 
 >Data, the final frontier. These are the adventures of a data scientists. 
 >His continuing mission to explore strange new patterns, to seek out new insights and new visualisations,
