@@ -36,11 +36,11 @@ There many different kinds of PhD. Mine was done with only minimal supervision. 
 
 ### Team work
 
-I function in a great variety of social settings, and in many roles. During my PhD I headed and was fully responsible for every international collaboration associated with my projects. Moreover, I joined the editorial board of the Donders Institute blog, overseeing its long term strategy and social media activities. I enjoy meeting new people, as I did at academic conferences, and forming a network which benefits those involved, see my [guide to excel at conferences](https://brainsidea.wordpress.com/2016/08/04/how-to-excel-at-academic-conferences-in-5-steps/).
+I function in a great variety of social settings, and in many roles. During my PhD I headed international collaborations associated with my research projects. Moreover, I joined the editorial board of the Donders Institute blog, overseeing its long term strategy and social media activities. I enjoy meeting new people, as I did at academic conferences, and forming a network which benefits those involved, see my [guide to excel at conferences](https://brainsidea.wordpress.com/2016/08/04/how-to-excel-at-academic-conferences-in-5-steps/).
 
-### Targeted communication
+### Synthesizing and explaining complex data to expert and lay audiences
 
-Thanks to my international background, I have excellent language skills in German, English, and Dutch. I used to write for widely read and recommended science blogs in Dutch ([Donders Wonders](http://blog.donders.ru.nl/?page_id=779)) and English ([Brain's Idea](http://brainsidea.wordpress.com/)). I now author a data science blog at [rikunert.com](http://rikunert.com). Furthermore, I have authored seven scientific articles and translated each into a lay summary, see details [here](http://rikunert.com/publications/).
+I used to write for widely read and recommended science blogs in Dutch ([Donders Wonders](http://blog.donders.ru.nl/?page_id=779)) and English ([Brain's Idea](http://brainsidea.wordpress.com/)). I now author a data science blog at [rikunert.com](http://rikunert.com). Furthermore, I have authored seven scientific articles and translated each into a lay summary, see details [here](http://rikunert.com/publications/).
 
 ## Employment
 
@@ -74,9 +74,9 @@ Ten international conference presentations on the cognitive neuroscience of lang
 
 `2012-`
 Popular science activities including
-* the [Donders Institute blog](http://blog.donders.ru.nl/?page_id=779) about mind & brain
-* my personal blog ([Brain's Idea](http://brainsidea.wordpress.com/)) about mind & brain
-* touring with [Muziekgezelschap Ludwig](http://www.ludwiglive.nl/brainwaves/brainwave-1-felix-meritis/) to tell the public about music and language in the brain
+* [Donders Institute blog](http://blog.donders.ru.nl/?page_id=779) on mind & brain
+* own blog ([Brain's Idea](http://brainsidea.wordpress.com/)) on mind & brain
+* touring with [Muziekgezelschap Ludwig](http://www.ludwiglive.nl/brainwaves/brainwave-1-felix-meritis/) to tell public about music & language in brain
 
 
 ## Data science experience
