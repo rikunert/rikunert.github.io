@@ -12,7 +12,7 @@ I did my PhD in the neurosciences of music and language at the [Max Planck Insti
 for Psycholinguistics](http://www.mpi.nl/) in Nijmegen (The Netherlands).
 I am now looking for a job in industry.
 You might want to see this blog as my application portfolio.
-For more details, check out [my CV](rikunert.com/CV).
+For more details, check out [my CV](http://rikunert.com/cv).
 
 ***
 ![alt text](https://github.com/rikunert/rikunert.github.io/raw/master/pictures/brainsidea_logo.png "Brain's Idea logo")
