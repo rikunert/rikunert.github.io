@@ -15,6 +15,8 @@ Cognitive Neuroscience PhD and Data Scientist
 <i class="fa fa-google"></i> <a href="http://scholar.google.com/citations?user=V2EGJ3UAAAAJ">scholar</a>
 |
 <i class="fa fa-rss-square"></i> <a href="http://rikunert.com">rikunert.com</a>
+|
+<i class="fa fa-home"></i> <a href="https://www.google.de/maps/place/Berlin/@52.5072111,13.1459682,10z/data=!3m1!4b1!4m5!3m4!1s0x47a84e373f035901:0x42120465b5e3b70!8m2!3d52.5200066!4d13.404954">Berlin</a>
 </div>
 
 ## Currently
