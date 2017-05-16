@@ -81,12 +81,12 @@ Popular science activities including
 
 ## Data science experience
 
-* R (countless examples from both neuroscience and wider data science, see [github profile](http://github.com/rikunert/))
+* R (see [github profile](http://github.com/rikunert/))
 * Shiny (see [example](https://rikunert.shinyapps.io/PLOS_ALM/))
 * Statistics (frequentist and Bayesian)
 * Git
 * Python (see [example](http://rikunert.com))
-* Data visualisation (see countless examples in my scientific publications and on [rikunert.com](http://rikunert.com))
+* Data visualisation (see[rikunert.com](http://rikunert.com))
 * Matlab (see [example](http://rsos.royalsocietypublishing.org/content/3/2/150685.figures-only))
 
 ## Awards
