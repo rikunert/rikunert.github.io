@@ -58,6 +58,8 @@ __University of Amsterdam__ Research assistant
 `01/2013-08/2016`
 __Radboud University__ Cognitive Neuroscience PhD (supervisor: Peter Hagoort)
 
+thesis title: *Music and Language Comprehension in the Brain*
+
 `09/2010-01/2013`
 __Amsterdam University__ MSc Brain and Cognitive Science (_cum laude_)
 
@@ -76,7 +78,7 @@ Ten international conference presentations on the cognitive neuroscience of lang
 Popular science activities including
 * [Donders Institute blog](http://blog.donders.ru.nl/?page_id=779) on mind & brain
 * own blog ([Brain's Idea](http://brainsidea.wordpress.com/)) on mind & brain
-* [Muziekgezelschap Ludwig](http://www.ludwiglive.nl/brainwaves/brainwave-1-felix-meritis/) tour: music & language in brain
+* [Muziekgezelschap Ludwig](http://www.ludwiglive.nl/brainwaves/brainwave-1-felix-meritis/) tour in NL
 
 
 ## Data science experience
@@ -86,7 +88,7 @@ Popular science activities including
 * Statistics (frequentist and Bayesian)
 * Git
 * Python (see [example](http://rikunert.com))
-* Data visualisation (see[rikunert.com](http://rikunert.com))
+* Data visualisation (see [rikunert.com](http://rikunert.com))
 * Matlab (see [example](http://rsos.royalsocietypublishing.org/content/3/2/150685.figures-only))
 
 ## Awards

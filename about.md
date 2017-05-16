@@ -10,9 +10,9 @@ Interested in data science? Welcome to Rich Data.
 
 I did my PhD in the neurosciences of music and language at the [Max Planck Institute
 for Psycholinguistics](http://www.mpi.nl/) in Nijmegen (The Netherlands).
-I am now looking for a job in industry.
-You might want to see this blog as my application portfolio.
-For more details, check out [my CV](http://rikunert.com/cv).
+Now, I am ready to help your business excel through my data analysis and visualisation skills as well as my expertise in experimental design. 
+Check out my blog for little data science pet projects.
+For more details, see [my CV](http://rikunert.com/cv).
 
 ***
 ![alt text](https://github.com/rikunert/rikunert.github.io/raw/master/pictures/brainsidea_logo.png "Brain's Idea logo")
