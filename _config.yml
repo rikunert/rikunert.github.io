@@ -32,10 +32,12 @@ gems:
   - jekyll-gist
 
 future:               true
+
 pages_list:
   About: '/about'
   CV: '/cv'
   Publications: '/publications'
-  Archive: '/archive'
-  Feed: '/atom.xml'
+  Blog Archive: '/archive'
+  Blog Feed: '/atom.xml'
+  
 excerpt_separator: "<!--excerpt-->"
