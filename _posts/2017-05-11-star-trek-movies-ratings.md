@@ -178,7 +178,7 @@ def add_image(ax_, url, xy, imzoom):
     ax_.add_artist(ab)
     return ax_
 ```
-Adding each film poster is now easy. For the ordinate (y-axis), by the way, I chose the average rating.
+Adding each film poster is now easy. For the ordinate (y-axis) position, by the way, I chose the average rating.
 ```python
 for i in range(len(df)):  # for each Star Trek movie
     add_image(ax, df['image_url'][i], [df['date'][i], sum(df.iloc[i, 1:5]) / 4.0], 0.3)
@@ -190,7 +190,7 @@ I think the x-axis could be simplified.
 ```python
 ax.xaxis.set_ticks(range(1980, 2020, 10))  # minimal x-axis style
 ```
-I replcae the y-axis by star symbols. All in the interest of avoiding text.
+I replace the y-axis by star symbols. All in the interest of avoiding text.
 ```python
 ax.yaxis.set_visible(False)  # no numerical y-axis at all
 add_image(ax, 'grey_star.jpg', [1975, 0], 0.05)  # zero stars on sort of y-axis
