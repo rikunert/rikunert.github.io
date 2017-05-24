@@ -6,7 +6,7 @@ comments: true
 
 title: Using Python and the IMDb API to find the best Star Trek episode
 subtitle: 100 lines of code 
-tags: [data science, python, web scraping, IMDb, API, rotten tomatoes, metacritic, visualisation, ggplot, matplotlib]
+tags: [data science, python, IMDb, API, visualisation, ggplot, matplotlib]
 lead: A new Star Trek series, Discovery, is on the horizon. Time to look back at the best episodes of the franchise so far. This guide will teach you to use the IMDb API to get the answers yourself.
 ---
 
@@ -35,13 +35,13 @@ Episode | Series | average IMDb rating
 [The Measure of a Man](http://www.imdb.com/title/tt0708807) | [TNG](http://www.imdb.com/title/tt0092455) | 9.1
 [The Visitor](http://www.imdb.com/title/tt0708645) | [DS9](http://www.imdb.com/title/tt0106145) | 9.1
 
-Man trekkies won't be surprised to hear that Star Trek: The Next Generation dominates the top 10. 
+Many trekkies won't be surprised to hear that Star Trek: The Next Generation dominates the top 10. 
 This series is generally regarded as the high point of Star Trek television. 
 However, I was shocked to find that the worst Star Trek episode is from The Next Generation, too: [Shades of Gray](http://www.imdb.com/title/tt0708772).
 
 This made me wonder what the best Star Trek series is.
 From the table below, you can see that the five Star Trek series so far are extremely similar in terms of the average episode rating, whether measured in terms of the mean or the median.
-However, this does not correspond to viewers rating the series as whole in which case The Next Generation is king.
+However, this does not correspond to viewers rating each series as a whole in which case The Next Generation is king.
 
 Series | mean IMDb episode rating | median IMDb episode rating | IMDb series rating
 ----------|----------|----------|----------
@@ -51,9 +51,10 @@ Series | mean IMDb episode rating | median IMDb episode rating | IMDb series rat
 [Voyager](http://www.imdb.com/title/tt0112178)| 7.4 | 7.3 | 7.7
 [Enterprise](http://www.imdb.com/title/tt0244365)| 7.7 | 7.6 | 7.5
 
-I suspect that a series, in order to be remembered as 'generally good', has to include a few stellar episodes. Fandom will forgive a few atrocious episodes but it won't forgive mediocrity.
+I suspect that a series, in order to be remembered as 'generally good', has to include a few stellar episodes. 
+Fandom will forgive a few atrocious episodes but it won't forgive unending mediocrity.
 The figure below shows the distribution of episode ratings. In such a density plot a high vertical value corresponds to many ratings aroung this point, similar to a histogram.
-It turns out that all the worst episodes are from The Next Generation. Fans forgave this mishaps, apparently. 
+It turns out that all the worst episodes are from The Next Generation. Fans forgave these mishaps, apparently. 
 
 The mediocrity of Voyager is well illustrated by the high peak just above 7 and no very bad or indeed very good episodes.
 This certainly mirrors my own experience: Voyager was not bad enough to tune out but gave you very little reason to really get engaged. 
@@ -100,7 +101,7 @@ plt.text(dt.datetime(2003, 1, 1), 1.2, '@rikunert')  # keep figure open for this
 
 Then, I add star ships to show which colour corresponds to which series. 
 I found the star ship images online and put them [on my github](https://github.com/rikunert/Star_Trek_ratings) for your convenience. 
-Just download them, put them in a folder and add the path to this folder in line 2 of the function. 
+Just download them, put them in a folder and add the path in line 2 of the function. 
 
 ```python
 def add_starship(ax_, ship, xy, imzoom):
@@ -126,7 +127,7 @@ add_starship(ax, 'VOY', [dt.datetime(1999, 6, 1), 2.6], 0.1)
 add_starship(ax, 'ENT', [dt.datetime(2002, 1, 1), 2], 0.1)
 ```
 
-Now, we can just annotate, the three episodes which stand out and we are nearly done.
+Now, we can just annotate the three episodes which stand out and we are nearly done.
 
 ```python
 #most delayed episode
