@@ -1,11 +1,11 @@
 ---
 layout: post
 published: true
-permalink: star_trek_movies
+
 comments: true
 
 title: Using Python, the IMDb API, and web-scraping rotten tomatoes to find the best Star Trek movie
-subtitle: 120 lines of code 
+subtitle: 120 lines of code (python)
 tags: [data science, python, web scraping, IMDb, API, rotten tomatoes, metacritic, visualisation, ggplot, matplotlib]
 lead: Star Trek is a very rare positive vision of the future. Which movie captures the audience the most with this hopeful message? I learned python to sample all the movie ratings I could find in order to answer this question. If you follow this guide, so can you.
 ---
@@ -14,9 +14,9 @@ lead: Star Trek is a very rare positive vision of the future. Which movie captur
 
 <!--excerpt-->
 
-**Which one is the best Star Trek movie?** 
+**Which one is the best Star Trek movie?**
 
-The short answer is [Star Trek](http://www.imdb.com/title/tt0796366/) of the 2009 reboot. 
+The short answer is [Star Trek](http://www.imdb.com/title/tt0796366/) of the 2009 reboot.
 The top five Star Trek movies according to an average of user ratings on IMDb and rotten tomatoes as well as
 critics' ratings aggregated by metacritic and rotten tomatoes are:  
 
@@ -28,21 +28,21 @@ Movie | average rating
 [Star Trek II: The Wrath of Khan](http://www.imdb.com/title/tt0084726/?ref_=nv_sr_2) | 4.04 stars
 [Star Trek IV: The Voyage Home](http://www.imdb.com/title/tt0092007/?ref_=fn_al_tt_1) | 3.79 stars
 
-To many trekkies the entries for First Contact and the Wrath of Khan won't come as a surprise. 
-These movies are generally regarded as high points in the franchise. 
-However, what astonished me was just how successful the 2009 reboot was. 
-Star Trek never before managed to churn out three decent movies in a row. 
-There is hope that the next film will be a similarly good. 
+To many trekkies the entries for First Contact and the Wrath of Khan won't come as a surprise.
+These movies are generally regarded as high points in the franchise.
+However, what astonished me was just how successful the 2009 reboot was.
+Star Trek never before managed to churn out three decent movies in a row.
+There is hope that the next film will be a similarly good.
 
-How you can get at all this information is shown in this blog post. 
+How you can get at all this information is shown in this blog post.
 
->Data, the final frontier. These are the adventures of a data scientists. 
+>Data, the final frontier. These are the adventures of a data scientists.
 >His continuing mission to explore strange new patterns, to seek out new insights and new visualisations,
 >to boldly find out what no one has found out before...
 
 ## Data acquisition: using IMDb API and web scraping
 
-Start off by loading all the necessary modules. Because of IMDb-py I use python 2.7. 
+Start off by loading all the necessary modules. Because of IMDb-py I use python 2.7.
 ```python
 import imdb as imdb  # to access imdb API
 import pandas as pd  # for data array handling
@@ -55,7 +55,7 @@ import matplotlib.pyplot as plt  # for plotting
 from matplotlib.offsetbox import (OffsetImage, AnnotationBbox)
 ```
 
-Next, we sample all Star Trek movies. We shall use the IMDb search function for that. 
+Next, we sample all Star Trek movies. We shall use the IMDb search function for that.
 ```python
 imdb_http = imdb.IMDb()  # create imdb API object
 StarTrek = imdb_http.search_movie('Star Trek')  # general search for Star Trek among movie and series titles
@@ -64,7 +64,7 @@ Because we are not interested in series or video games, we extract only the movi
 ```python
 STF = [i for i in StarTrek if i.data['kind'] == 'movie']
 ```
-Unfortunately, IMDb's search function is not flawless and misses 5 movies. 
+Unfortunately, IMDb's search function is not flawless and misses 5 movies.
 We search for them individually and add them to the list `STF` which holds the movies.
 ```python
 StarTrekIII = imdb_http.search_movie('Star Trek III the Search for Spock')
@@ -75,10 +75,10 @@ StarTrekFC = imdb_http.search_movie('Star Trek First Contact')
 STF.extend([StarTrekIII[0], StarTrekIV[0], StarTrekV[0], StarTrekVI[0], StarTrekFC[0]])
 ```
 Now, we can loop through each movie and add all the information we want to a pandas data frame `df`.
-The IMDb API gives access to IMDb user ratings and metacritic ratings. 
-However, in order to get rotten tomatoes ratings we turn to web scraping using `BeautifulSoup`. 
+The IMDb API gives access to IMDb user ratings and metacritic ratings.
+However, in order to get rotten tomatoes ratings we turn to web scraping using `BeautifulSoup`.
 
-Note that different ratings use different scales. 
+Note that different ratings use different scales.
 I decided to turn all of them into an intuitive 6-point scale (zero to five stars).
 ```python
 df = pd.DataFrame(columns=['date', 'IMDb_rating', 'Metacritic_rating', 'title', 'image_url'])  # initialise data frame
@@ -112,7 +112,7 @@ for i in range(len(STF)):  # for each Star Trek movie
             'title': STF[i].data['title'],
             'image_url': STF[i]['cover url']}))
 ```
-At this point one might want to save the data, for example by calling `df.to_csv('Star_Trek_movie_data.csv', sep=';')`. 
+At this point one might want to save the data, for example by calling `df.to_csv('Star_Trek_movie_data.csv', sep=';')`.
 The result can be downloaded [here](https://github.com/rikunert/Star_Trek_ratings/blob/master/Star_Trek_movie_data.csv).
 
 ## Data visualisation: using ggplot and matplotlib
@@ -130,11 +130,11 @@ p = p + ylim(0, 5) + xlim(1975, 2016) + xlab(' ') + ylab(' ') + ggtitle('Star Tr
 
 ![alt text](https://github.com/rikunert/Star_Trek_ratings/raw/master/Star_Trek_movie_ratings_dates_interim1.png "Interim figure")
 
-The plot `p` now holds essentially all the information we need. 
+The plot `p` now holds essentially all the information we need.
 But it is not pretty yet, as you can see by calling `print p` which is what I did to produce the figure above.
 For visual gimicks we shall leave `ggplot` and turn to `matplotlib`.
 
-The module `matplotlib` works very much like matlab figure production. 
+The module `matplotlib` works very much like matlab figure production.
 So, the figure should not be saved in a variable like `p` above, but instead be open.
 
 ```python
@@ -154,17 +154,17 @@ The result:
 ![alt text](https://github.com/rikunert/Star_Trek_ratings/raw/master/Star_Trek_movie_ratings_dates_interim2.png "Interim figure")
 
 How to tell the viewer which movie is where?
-The film posters are the easiest way to achieve this. 
+The film posters are the easiest way to achieve this.
 
-Including an image in a plot is not straight forward. 
+Including an image in a plot is not straight forward.
 I will use the annotation box approach and hide the box itself behind the image.
 
 First off though, we need the drawing area called axes or `ax`.
 ```python
 ax = plt.gca()
 ```
-Next we define a new function `add_image()` to place an image from `url` at the coordinates `xy` 
-of drawing area `ax_` with the image zoom `imzoom`. 
+Next we define a new function `add_image()` to place an image from `url` at the coordinates `xy`
+of drawing area `ax_` with the image zoom `imzoom`.
 ```python
 def add_image(ax_, url, xy, imzoom):
     if 'http' in url:  # image on internet
@@ -209,8 +209,8 @@ ax.annotate('The absolute worst movie:\n' + df[df['IMDb_rating'] == min(df['IMDb
 
 ![alt text](https://github.com/rikunert/Star_Trek_ratings/raw/master/Star_Trek_movie_ratings_dates_interim5.png "Interim figure")
 
-Finally, the figure dimensions are not optimised for social media like twitter. 
-And the margins are simply too big. The last statements deal with these problems 
+Finally, the figure dimensions are not optimised for social media like twitter.
+And the margins are simply too big. The last statements deal with these problems
 ```python
 fig = plt.gcf()  # get current figure to show it
 fig.set_size_inches(1024 / 70, 512 / 70)  # reset the figure size to twitter standard
