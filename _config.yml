@@ -35,7 +35,7 @@ future:               true
 
 pages_list:
   About: '/about'
-  CV: '/cv'
+#  CV: '/cv'
   Publications: '/publications'
   Blog Archive: '/archive'
   Blog Feed: '/atom.xml'

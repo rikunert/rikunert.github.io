@@ -32,7 +32,7 @@ Data analysis results can be misleading, requiring a critical eye which looks be
 
 ### Independent problem solving
 
-There many different kinds of PhD. Mine was done with only minimal supervision. I finished it on time and in budget. I furthermore finished two scientific projects on the side, [one](http://link.springer.com/article/10.3758/s13423-016-1030-9/fulltext.html) re-using public data, [one](http://pubman.mpdl.mpg.de/pubman/item/escidoc:2355026:6/component/escidoc:2380816/Kunert_Jongman_2016.pdf) with self-acquired grant money. I overcame challenges along the way through collaboration, creativity, and sheer perseverance. Never afraid to exand my horizon, I acquired programming skills such as git, shiny, and python without any supervision after leaving academia.
+There many different kinds of PhD. Mine was done with only minimal supervision. I finished it on time and in budget. I furthermore finished two scientific projects on the side, [one](http://link.springer.com/article/10.3758/s13423-016-1030-9/fulltext.html) re-using public data, [one](http://pubman.mpdl.mpg.de/pubman/item/escidoc:2355026:6/component/escidoc:2380816/Kunert_Jongman_2016.pdf) with self-acquired grant money. I overcame challenges along the way through collaboration, creativity, and sheer perseverance. Never afraid to expand my horizon, I acquired programming skills such as git, shiny, and python without any supervision after leaving academia.
 
 ### Team work
 
