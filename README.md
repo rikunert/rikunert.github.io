@@ -1,4 +1,4 @@
-# Personal website and blog 
+# Personal website and blog at http://rikunert.com
 I use Poole by [Mark Otto](https://github.com/mdo) inspired by a [tutorial](http://joshualande.com/jekyll-github-pages-poole) written by Joshua Lande.
 
 # Top level pages
