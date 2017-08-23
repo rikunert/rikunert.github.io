@@ -2,6 +2,18 @@
 layout: page
 title: Dr. Richard Kunert
 ---
+rikunert [AT] gmail.com
+|
+[github](http://github.com/rikunert)
+|
+[twitter](http://twitter.com/rikunert)
+|
+[google scholar](http://scholar.google.com/citations?user=V2EGJ3UAAAAJ)
+|
+[Linked In](https://www.linkedin.com/in/richard-kunert-phd-69b43459/)
+|
+Berlin
+
 ## Currently
 
 Freelance data scientist.
@@ -98,10 +110,5 @@ Robert H. Thouless Prize for Best Critical Review
 
 #### 07/2009
 Wellcome Trust Vacation Scholarship for Summer Research
-
-
-## References
-
-Available on request.
 
 *Last updated: August 2017*
