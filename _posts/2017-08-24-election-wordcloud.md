@@ -69,9 +69,9 @@ Notice that vocabulary related to foreigners coming to Germany makes it into the
 
 As an aside, a certain Martin Schweinberger did a similar project for the last German general election published on [his blog](http://www.martinschweinberger.de/blog/creating-word-clouds-with-r/).
 Compare his word cloud to mine and see how the German political discourse has changed. 
-For example, 4 years ago Germany (*deutschland*) was mentioned a lot less and the liberal FDP dominated that word. A far cry from the situation in 2017.
+For example, four years ago Germany (*deutschland*) was mentioned a lot less and the liberal FDP dominated that word. A far cry from the situation in 2017.
 
-In the following I show how you can make these plots from the comfort of your own home.
+In the following, I show how you can make these plots from the comfort of your own home.
 The full script can be found [on github](https://github.com/rikunert/HU_text_classification/blob/master/Wahlprogramme_2017/BTW_wordcloud.R).
 
 ## Making word clouds with R
