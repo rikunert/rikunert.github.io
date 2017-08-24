@@ -52,6 +52,13 @@ Otherwise, welfare state vocubulary appears quite common (*solidarische*, *sozia
 People (*menschen*), the future (*zukunft*), and Germany (*deutschland*), seem to be the most common words for the greens.
 Surprisingly, environment related words (*ökologische*) hardly make it into the top 100 words displayed in the word cloud.
 
+![alt text](https://github.com/rikunert/HU_text_classification/raw/master/Wahlprogramme_2017/FDP_wordcloud.png
+"What the liberal FDP are talking about in their manifesto")
+
+The pro-business liberal FDP is likely to join the federal parliament again after a four year hiatus. 
+Expectedly, they use business vocabulary a lot (*leistungen*, *unternehmen*, *wirthschaft*, *wettbewerb*). 
+Perhaps in an attempt to come across as a modern party a lot of computer vocabulary is included as well (*digitalisierung*, *digitalen*, *daten*).
+
 ![alt text](https://github.com/rikunert/HU_text_classification/raw/master/Wahlprogramme_2017/AFD_wordcloud.png
 "What the right populist AFD are talking about in their manifesto")
 
@@ -59,6 +66,10 @@ The right populist AFD are widely expected to enter the federal parliament for t
 Their excitement about this prospect appears to be mirrored in the frequent mention of 'general election' (*bundestagswahl*).
 They unexpectedly lose the competition to mention Germany (*deutschland*) the most to Merkel's CDU/CSU. 
 Notice that vocabulary related to foreigners coming to Germany makes it into their word cloud (*asyl*, *islam*, *zuwanderung*, *türkei*).
+
+As an aside, a certain Martin Schweinberger did a similar project for the last German general election published on [his blog](http://www.martinschweinberger.de/blog/creating-word-clouds-with-r/).
+Compare his word cloud to mine and see how the German political discourse has changed. 
+For example, 4 years ago Germany (*deutschland*) was mentioned a lot less and the liberal FDP dominated that word. A far cry from the situation in 2017.
 
 In the following I show how you can make these plots from the comfort of your own home.
 The full script can be found [on github](https://github.com/rikunert/HU_text_classification/blob/master/Wahlprogramme_2017/BTW_wordcloud.R).
