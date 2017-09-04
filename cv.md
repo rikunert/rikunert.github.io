@@ -42,16 +42,18 @@ Since my student days I have held various positions of responsibility from being
 
 ## Employment
 
-#### 01/2013-08/2016
-__Max Planck Institute for Psycholinguistics__ PhD candidate
+#### since 09/2017
+__Freelance__ Data Scientist
 
+#### 01/2013-08/2016
+__Max Planck Institute for Psycholinguistics__ PhD Candidate
 
 #### 10/2015-04/2016
 __Dutch Science Funding Council (NWO)__ Junior Policy Officer
 
 
 #### 01/2012-04/2012
-__University of Amsterdam__ Research assistant
+__University of Amsterdam__ Research Assistant
 
 ## Education
 
@@ -111,4 +113,4 @@ Robert H. Thouless Prize for Best Critical Review
 #### 07/2009
 Wellcome Trust Vacation Scholarship for Summer Research
 
-*Last updated: August 2017*
+*Last updated: September 2017*
