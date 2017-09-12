@@ -24,7 +24,7 @@ The general result is summarised in the above word cloud showing which party dom
 Words are sized by how often they occur across election manifestos and coloured according to the manifesto where they occur the most.
 The colours will be familiar to most readers but just in case I included party names as well.
 
-The word clouds for each political party reveal what different themes. 
+The word clouds for each political party reveal different themes. 
 I plot the top 100 words of each manifesto and scale the words by how often they occur.
 
 ![alt text](https://github.com/rikunert/BTW2017_manifesto_analysis/raw/master/CDU_CSU_wordcloud.png

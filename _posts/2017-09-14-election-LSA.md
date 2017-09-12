@@ -68,7 +68,7 @@ A better approach would have been to train the analysis on a huge corpus of Germ
  using very generous computer resources (which I am unwilling to pay for) and then *fold in* the election manifestos into the learned semantic dimensions.
 
 As always, in the following I provide you with a fool proof guide to recreating the analyses and plot the results. 
-The script I actually used can be found on github [here](git hub address). 
+The script I actually used can be found on github [here](https://github.com/rikunert/BTW2017_manifesto_analysis/blob/master/BTW_LSA.R). 
 Please comment below if anything should be unclear or you want to lift my spirits.
  
 ## Performing Latent Semantic Analysis in R
