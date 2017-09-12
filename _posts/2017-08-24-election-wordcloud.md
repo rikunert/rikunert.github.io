@@ -10,7 +10,7 @@ tags: [data science, R, text mining, string, visualisation, text, politics]
 lead: In just one month the biggest country of Europe, Germany, is going to the polls. In this short tutorial, I text mine the main parties' election manifestos in order to visualise the state of German politics.
 ---
 
-![alt text](https://github.com/rikunert/HU_text_classification/raw/master/Wahlprogramme_2017/German_party_manifesto_wordcloud.png
+![alt text](https://github.com/rikunert/BTW2017_manifesto_analysis/raw/master/German_party_manifesto_wordcloud.png
 "What the main German political parties are talking about in their manifestos")
 
 <!--excerpt-->
@@ -27,39 +27,39 @@ The colours will be familiar to most readers but just in case I included party n
 The word clouds for each political party reveal what different themes. 
 I plot the top 100 words of each manifesto and scale the words by how often they occur.
 
-![alt text](https://github.com/rikunert/HU_text_classification/raw/master/Wahlprogramme_2017/CDU_CSU_wordcloud.png
+![alt text](https://github.com/rikunert/BTW2017_manifesto_analysis/raw/master/CDU_CSU_wordcloud.png
 "What Angela Merkel's CDU/CSU are talking about in their manifesto")
 
 The ruling conservative parties CDU/CSU of chancelor Merkel appear to focus on Germany (*deutschland*) and to a lesser extent Europe (*europa*).
  Otherwise, community related words (*menschen*, *unser*, *unserer*) are noticeable.
 
- ![alt text](https://github.com/rikunert/HU_text_classification/raw/master/Wahlprogramme_2017/SPD_wordcloud.png
+ ![alt text](https://github.com/rikunert/BTW2017_manifesto_analysis/raw/master/SPD_wordcloud.png
 "What Angela Merkel's CDU/CSU are talking about in their manifesto")
 
 The other ruling party, the social democratic SPD, appear to fail to find a strong verbal focus, instead opting to talk more or less equally about Germany (*deutschland*) and Europe (*europa*).
  The relatively low frequency of social justice (*Gerechtigkeit*) is noticeable given that the SPD tried to make this the theme of this election.
  
-![alt text](https://github.com/rikunert/HU_text_classification/raw/master/Wahlprogramme_2017/LINKE_wordcloud.png
+![alt text](https://github.com/rikunert/BTW2017_manifesto_analysis/raw/master/LINKE_wordcloud.png
 "What the post-socialist DIE LINKE are talking about in their manifesto")
 
 The currently biggest opposition party, the far left DIE LINKE, talk about 'having to do something' (*müssen*) and human beings (*menschen*) more than other parties. 
 However, they failed the competition for promising 'more' (*mehr*) to the social democrats. 
 Otherwise, welfare state vocubulary appears quite common (*solidarische*, *sozial(en)*, *pflege*, *arbeit*). 
 
-![alt text](https://github.com/rikunert/HU_text_classification/raw/master/Wahlprogramme_2017/Gruene_wordcloud.png
+![alt text](https://github.com/rikunert/BTW2017_manifesto_analysis/raw/master/Gruene_wordcloud.png
 "What the green party, Bündnis 90 / Die Grünen, are talking about in their manifesto")
 
 People (*menschen*), the future (*zukunft*), and Germany (*deutschland*), seem to be the most common words for the greens.
 Surprisingly, environment related words (*ökologische*) hardly make it into the top 100 words displayed in the word cloud.
 
-![alt text](https://github.com/rikunert/HU_text_classification/raw/master/Wahlprogramme_2017/FDP_wordcloud.png
+![alt text](https://github.com/rikunert/BTW2017_manifesto_analysis/raw/master/FDP_wordcloud.png
 "What the liberal FDP are talking about in their manifesto")
 
 The pro-business liberal FDP is likely to join the federal parliament again after a four year hiatus. 
 Expectedly, they use business vocabulary a lot (*leistungen*, *unternehmen*, *wirthschaft*, *wettbewerb*). 
 Perhaps in an attempt to come across as a modern party a lot of computer vocabulary is included as well (*digitalisierung*, *digitalen*, *daten*).
 
-![alt text](https://github.com/rikunert/HU_text_classification/raw/master/Wahlprogramme_2017/AFD_wordcloud.png
+![alt text](https://github.com/rikunert/BTW2017_manifesto_analysis/raw/master/AFD_wordcloud.png
 "What the right populist AFD are talking about in their manifesto")
 
 The right populist AFD are widely expected to enter the federal parliament for the first time this autumn. 
@@ -72,7 +72,7 @@ Compare his word cloud to mine and see how the German political discourse has ch
 For example, four years ago Germany (*deutschland*) was mentioned a lot less and the liberal FDP dominated that word. A far cry from the situation in 2017.
 
 In the following, I show how you can make these plots from the comfort of your own home.
-The full script can be found [on github](https://github.com/rikunert/HU_text_classification/blob/master/Wahlprogramme_2017/BTW_wordcloud.R).
+The full script can be found [on github](https://github.com/rikunert/BTW2017_manifesto_analysis/blob/master/BTW_wordcloud.R).
 
 ## Making word clouds with R
 
