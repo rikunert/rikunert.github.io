@@ -23,9 +23,9 @@ So, how about we ask an algorithm from computational linguistics to give us a ge
 
 The algorithm is called Laten Semantic Analysis (sometimes called Latent Semantic Indexing).
 It knows nothing about word order or indeed the meaning of words. 
-It simply assumes that words which regularly appear together in text units (pragraphs in this case), mean similar things.
+It simply assumes that words which regularly appear together in text units (paragraphs in this case), mean similar things.
 
-This idea allows the algorithm to derive hidden ('latent') meaning ('semantic') dimensions such as good-bad, agitated-calm, or gosspiy-serious.
+This idea allows the algorithm to derive hidden ('latent') meaning ('semantic') dimensions such as good-bad, agitated-calm, or gossipiy-serious.
 The semantic dimensions could really be anything. It all depends on the texts you put into the analysis.
 
 I put in the election manifesto paragraphs of the six parties which most likely will be present in the next parliament.
@@ -34,7 +34,7 @@ The importance of semantic dimensions declines the more you move down the list, 
 
 <iframe width="700" height="650" frameborder="0" scrolling="no" src="//plot.ly/~rikunert/47.embed"></iframe>
 
-The first thing you might notice in the concentration of points near the origin (0; 0; 0). 
+The first thing you might notice is the concentration of points near the origin (0; 0; 0). 
 These tend to be short paragraphs which include so few words that the analysis wouldn't know what meaning to assign.
  So, it remains neutral.
  
@@ -155,6 +155,8 @@ td.mat <- as.matrix(corp)
 td.mat.lsa <- lw_bintf(td.mat) * gw_gfidf(td.mat)  # weighting: global frequency * inverse document frequency
 lsaSpace <- lsa(td.mat.lsa, dims = 10)  # create LSA space
 ```
+## Interactive 3D Scatter Plot in R using plotly
+
 And so we are ready for some 3D scatter plot action.
 I want the user to be able to hover the cursor over a data point and see which paragraph it is, i.e. directly read the text.
 Because `plotly` does not implement line breaks, I have to do it myself.
