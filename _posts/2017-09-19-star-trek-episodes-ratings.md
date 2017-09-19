@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 permalink: star_trek_series
 comments: true
 
@@ -63,7 +63,7 @@ This certainly mirrors my own experience: Voyager was not bad enough to tune out
 
 ## Data acquisition
 
-The data acquisition for this post was very very similar as for [my previous Star Trek post](http://rikunert.com/star_trek_movies).
+The data acquisition for this post was very very similar to [my previous Star Trek post](http://rikunert.com/star_trek_movies).
 So, I won't go into details here and simply link to [the data acquisition script](https://github.com/rikunert/Star_Trek_ratings/blob/master/imdb_STS_data_acquisition.py)
 and [the resulting data set](https://github.com/rikunert/Star_Trek_ratings/blob/master/Star_Trek_data.csv) on github. The script is well commented. Should you nonetheless have a question, just leave a comment.
 
@@ -168,7 +168,7 @@ df.sort_index(by = ['rating'], ascending = False)[:10]
 ```
 
 We follow the exact same strategy for the density plot.
-We first make a density plot with ggplot, the turn to matplotlib to add images of star ships.
+We first make a density plot with ggplot, then turn to matplotlib to add images of star ships.
 This should now be relatively straight forward.
 
 ```python
