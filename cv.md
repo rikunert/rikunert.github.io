@@ -16,7 +16,7 @@ Berlin
 
 ## Currently
 
-Freelance data scientist.
+Freelance Data Scientist.
 
 ## Example Projects
 
