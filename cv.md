@@ -22,31 +22,31 @@ Freelance Data Scientist.
 
 ### Automatic article selection for a summary article (R)
 
-**Problem |** Help researchers classify articles as relevant to topic or not.
+**Problem:** Help researchers classify articles as relevant to topic or not.
 
-**Solution |** Train a SVM on a manually classified training set balanced through SMOTE and vectorized through Latent Semantic Analysis
+**Solution:** Train a SVM on a manually classified training set balanced through SMOTE and vectorized through Latent Semantic Analysis
 
-**Result |** Successful exclusion of hundreds of irrelevant articles from list
+**Result:** Successful exclusion of hundreds of irrelevant articles from list
 
 ### A Shiny web-app to understand modern scholarly publishing (R)
 
-**Problem |** What is the state of scholarly publishing today?
+**Problem:** What is the state of scholarly publishing today?
 
-**Solution |** Get data (citations, tweets…) of 195,000 PLoS articles into Shiny app
+**Solution:** Get data (citations, tweets…) of 195,000 PLoS articles into Shiny app
 
-**Result |** An interactive analysis app for everyone to use [here](bit.ly/2eVC0fJ) 
+**Result:** An interactive analysis app for everyone to use [here](bit.ly/2eVC0fJ) 
 
 ### Regression-based analysis of human fMRI brain data (Matlab)
 
-**Problem |** Reveal brain activity differences from fMRI signal
+**Problem:** Reveal brain activity differences from fMRI signal
 
-**Solution |** I put people in an MRI scanner & manipulated what was heard.
+**Solution:** I put people in an MRI scanner & manipulated what was heard.
 
 The analysis uses 2 steps:
 1) a person-specific multiple regression
 2) a group ANOVA on the beta weights from step 1
 
-**Result |** What people heard changed their brain activity, see article [here](bit.ly/1XZ7xvV).
+**Result:** What people heard changed their brain activity, see article [here](bit.ly/1XZ7xvV).
 
 ## Employment
 
