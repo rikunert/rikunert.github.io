@@ -34,7 +34,7 @@ Freelance Data Scientist.
 
 **Solution:** Get data (citations, tweets…) of 195,000 PLoS articles into Shiny app
 
-**Result:** An interactive analysis app for everyone to use [here](bit.ly/2eVC0fJ) 
+**Result:** An interactive analysis app for everyone to use [here](http://bit.ly/2eVC0fJ) 
 
 ### Regression-based analysis of human fMRI brain data (Matlab)
 
@@ -46,7 +46,7 @@ The analysis uses 2 steps:
 1) a person-specific multiple regression
 2) a group ANOVA on the beta weights from step 1
 
-**Result:** What people heard changed their brain activity, see article [here](bit.ly/1XZ7xvV).
+**Result:** What people heard changed their brain activity, see article [here](http://bit.ly/1XZ7xvV).
 
 ## Employment
 
