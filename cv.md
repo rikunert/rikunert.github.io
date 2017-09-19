@@ -18,27 +18,35 @@ Berlin
 
 Freelance data scientist.
 
-## Key skills
+## Example Projects
 
-### Critical analysis
+### Automatic article selection for a summary article (R)
 
-I bring a critical eye to data analysis in order to look beyond the surface aesthetics and reveal the underlying dynamics. For example, by digging deeper in a published data set, I have revealed signs of questionable research practices throughout psychological science, see [publication](http://link.springer.com/article/10.3758/s13423-016-1030-9/fulltext.html). This is but one example of how I work: fast, creatively, critically.
+**Problem |** Help researchers classify articles as relevant to topic or not.
 
-### Synthesizing & explaining complex data
+**Solution |** Train a SVM on a manually classified training set balanced through SMOTE and vectorized through Latent Semantic Analysis
 
-I used to write for award winning science blogs in Dutch ([Donders Wonders](http://blog.donders.ru.nl/)) and English ([Brain’s Idea](http://brainsidea.wordpress.com)). I now blog at rikunert.com on data science. Besides, I have authored [seven scientific articles](http://rikunert.com/publications) and published lay versions on my blog.
+**Result |** Successful exclusion of hundreds of irrelevant articles from list
 
-### Team work
+### A Shiny web-app to understand modern scholarly publishing (R)
 
-I function in a great variety of professional settings, and in many roles. For example, during my PhD I headed several international collaborations associated with my research projects. Moreover, I joined the editorial board of the Donders Institute blog.
+**Problem |** What is the state of scholarly publishing today?
 
-### Independent problem solving
+**Solution |** Get data (citations, tweets…) of 195,000 PLoS articles into Shiny app
 
-I finished my PhD on time despite minimal supervision and challenges along the way because I persevered and sought creative solutions. Afterwards, I acquired Git, Shiny, and Python by myself.
+**Result |** An interactive analysis app for everyone to use [here](bit.ly/2eVC0fJ) 
 
-### Taking responsibility
+### Regression-based analysis of human fMRI brain data (Matlab)
 
-Since my student days I have held various positions of responsibility from being a class representative to restarting a student union.  During my PhD I was responsible for convening lab meetings and organizing an international tour for my student choir.
+**Problem |** Reveal brain activity differences from fMRI signal
+
+**Solution |** I put people in an MRI scanner & manipulated what was heard.
+
+The analysis uses 2 steps:
+1) a person-specific multiple regression
+2) a group ANOVA on the beta weights from step 1
+
+**Result |** What people heard changed their brain activity, see article [here](bit.ly/1XZ7xvV).
 
 ## Employment
 
@@ -80,7 +88,7 @@ Ten international conference presentations on the cognitive neuroscience of lang
 Popular science activities including
 * [Donders Institute blog](http://blog.donders.ru.nl/?page_id=779) on mind & brain
 * own blog ([Brain's Idea](http://brainsidea.wordpress.com/)) on mind & brain
-* [Muziekgezelschap Ludwig](http://www.ludwiglive.nl/brainwaves/brainwave-1-felix-meritis/) tour in NL
+* [Muziekgezelschap Ludwig](http://www.ludwiglive.nl/brainwaves/brainwave-1-felix-meritis/) popular science tour in NL
 
 
 ## Data science experience
