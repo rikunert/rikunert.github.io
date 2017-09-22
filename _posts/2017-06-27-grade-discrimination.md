@@ -78,7 +78,7 @@ As a result, French grades get discriminated in Germany in much the same way as 
 
 ![alt text](https://github.com/rikunert/german_grade_discrimination/raw/master/FR_dis_overall_official.png "The French Baccalauréat translated to German grading: discrimination of foreign grades")
 
-The translation formula can discrimiate in the opposite way, too. 
+The translation formula can discriminate in the opposite way, too. 
 That is, it can confer an unfair advantage to holders of foreign grades.
 This happens when the foreign grading scale has a very common best grade.
 One example is the Scottish educational system.
@@ -99,7 +99,7 @@ A better way would be to simply abandon the use of a formula and directly operat
  The right information is out there, I hope this blog post convinces you why it is important to use it.
   
 European integration means more and more people receive grades in different educational systems.
-Germany, the biggest country in Europe, cannot afford to turn the best foreign minds away because it doesn't know how to interpret its grades.
+Germany, the biggest country in Europe, cannot afford to turn the best foreign minds away because it doesn't know how to interpret their grades.
 A better, fairer way is possible.
 Let's adopt it.
 
