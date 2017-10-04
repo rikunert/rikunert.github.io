@@ -64,6 +64,19 @@ The one thing to take away from this table is that the analysis I did is very, v
 The right populist AfD lies the closest to three other parties while the establishment, pro-business FDP lies the farthest from all parties?
 I am not sure this makes much sense to me.
 
+Perhaps it helps to know what exactly each semantic dimension represents. 
+How different words load on different dimensions can illuminate that.
+The first dimension has relatively strong negative loadings by the following words: 
+*für*, *dass*, *Mensch*, *können*, *uns*, *muss*, *mehr*, *Europa*, *Deutschland*, *stark*. 
+Hmmm, not sure what to make of this. This all seems like standard German political discourse stuff to me.
+ 
+ The second dimension is not much better. 
+ The following words load strongly: *für* (positive loading), *dass*, *Europa*, *uns*, *Mensch*, *können*, *Deutschland*, *Land*, *mehr* (negative loadings).
+ 
+  Finally, the third dimension makes more sense: *Europa*, *Deutschland*, *international* (positive loadings),
+   *Mensch*, *können*, *Kind*, *gut*, *Arbeit*, *mehr* (negative loadings). 
+   It looks like it distinguisches foreign policy (Europe, Germany, international) from domestic policy (people, work, child).
+
 The take-home message is: **have fun with this analysis but take it all with a grain of salt**. 
 A better approach would have been to train the analysis on a huge corpus of German text (which I don't have)
  using very generous computer resources (which I am unwilling to pay for) and then *fold* the election manifestos into the learned semantic dimensions.
@@ -155,6 +168,9 @@ td.mat <- as.matrix(corp)
 td.mat.lsa <- lw_bintf(td.mat) * gw_gfidf(td.mat)  # weighting: global frequency * inverse document frequency
 lsaSpace <- lsa(td.mat.lsa, dims = 10)  # create LSA space
 ```
+The matrix `lsaSpace$tk` holds the word loadings for each dimension. 
+The matrix `lsaSpace$dk` does the same for paragraphs.
+
 ## Interactive 3D Scatter Plot in R using plotly
 
 And so we are ready for some 3D scatter plot action.
