@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Rich Data
 tagline:             Understanding the world through data
 url:                 rikunert.github.io
-paginate:            5 #5 posts per page
+paginate:            10 #x posts per page
 baseurl:             "" #http://github.com/rikunert/rikunert.github.io/
 
 # Assets
