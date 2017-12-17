@@ -16,39 +16,12 @@ Berlin
 
 ## Currently
 
-Freelance Data Scientist.
-
-## Example Projects
-
-### Automatic article selection for a summary article (R)
-
-**Problem:** Help researchers classify articles as relevant to topic or not.
-
-**Solution:** Train a SVM on a manually classified training set balanced through SMOTE and vectorized through Latent Semantic Analysis
-
-**Result:** Successful exclusion of hundreds of irrelevant articles from list
-
-### A Shiny web-app to understand modern scholarly publishing (R)
-
-**Problem:** What is the state of scholarly publishing today?
-
-**Solution:** Get data (citations, tweets…) of 195,000 PLoS articles into Shiny app
-
-**Result:** An interactive analysis app for everyone to use [here](http://bit.ly/2eVC0fJ) 
-
-### Regression-based analysis of human fMRI brain data (Matlab)
-
-**Problem:** Reveal brain activity differences from fMRI signal
-
-**Solution:** I put people in an MRI scanner & manipulated what was heard.
-
-The analysis uses 2 steps:
-1) a person-specific multiple regression
-2) a group ANOVA on the beta weights from step 1
-
-**Result:** What people heard changed their brain activity, see article [here](http://bit.ly/1XZ7xvV).
+Educational Data Scientist at [StackFuel GmbH](https://stackfuel.com/).
 
 ## Employment
+
+#### since 12/2017
+__StackFuel GmbH__ Educational Data Scientist
 
 #### since 09/2017
 __Freelance__ Data Scientist
@@ -58,7 +31,6 @@ __Max Planck Institute for Psycholinguistics__ PhD Candidate
 
 #### 10/2015-04/2016
 __Dutch Science Funding Council (NWO)__ Junior Policy Officer
-
 
 #### 01/2012-04/2012
 __University of Amsterdam__ Research Assistant
@@ -121,4 +93,4 @@ Robert H. Thouless Prize for Best Critical Review
 #### 07/2009
 Wellcome Trust Vacation Scholarship for Summer Research
 
-*Last updated: September 2017*
+*Last updated: December 2017*
