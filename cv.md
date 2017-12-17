@@ -56,7 +56,7 @@ Seven international, peer-reviewed, publications. Details: [rikunert.com/publica
 #### 2010-2016
 Ten international conference presentations on the cognitive neuroscience of language and music
 
-#### 2012-
+#### 2012-2017
 Popular science activities including
 * [Donders Institute blog](http://blog.donders.ru.nl/?page_id=779) on mind & brain
 * own blog ([Brain's Idea](http://brainsidea.wordpress.com/)) on mind & brain
