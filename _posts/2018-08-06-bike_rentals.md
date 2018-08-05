@@ -7,7 +7,7 @@ comments: true
 title: An analysis of the rental bike market in Berlin
 subtitle: 200 lines of code (Python)
 tags: [data science, python, visualisation, bike, market, pandas, matplotlib, time series]
-lead: 2018 was a wild summer for the rental bike market in Berlin. Many new bike systems pushed into the market in the beginning. By now, two have left already. In between, I counted every rented bike I saw. Which bikes got rented the most?
+lead: 2018 was a wild summer for the rental bike market in Berlin. Many new bike systems pushed into the market in the beginning. By now, two have already left. In between, I counted every rented bike I saw. Which bikes got rented the most?
 ---
 
 ![alt text](https://github.com/rikunert/bike_rentals/raw/master/rental_shares_total.png "2 months of rented bikes")
@@ -18,13 +18,13 @@ lead: 2018 was a wild summer for the rental bike market in Berlin. Many new bike
 On 7 May I started counting every single rented bike I saw in Berlin.
 I cycle to work and the weather this summer was amazing, so there was a lot to be counted.
 This summer was very particular because six new app-based rental services pushed into the market which previously only knew nextbike (Deezer brand), Call-A-Bike (Lidl brand) and Donky.
+
 By May, the last of the new arrivals (Ofo) had started. So, I began counting and the figure at the top of this post shows the rental bike market shares overall.
 I share and explain my analyses in great detail at the end of this post, so you can recreate everything I did.
 
 Mo-Bike is clearly the most used bike rental App in Berlin at the moment.
 Nextbike (using the brand Deezer) is in second place with nearly a third less rented bikes in my sample.
-Nextbike is the only system to receive a state subsidy.
-The incumbent on the Berlin rental bike market was Call-A-Bike (using the brand Lidl).
+The incumbent in the Berlin rental bike market was Call-A-Bike (using the brand Lidl).
 They only come in third place with a 17% market share.
 The latest newcomer Ofo caught up fast and reaches the fourth place overall.
 
@@ -47,12 +47,13 @@ These are the rental bike market shares of the seven weeks during which I counte
 
 The picture is even clearer when not looking at different weeks but instead at a 7-day rolling average.
 In the following graph you can see the yellow line of Ofo briefly going up aroung 1 June, even surpassing Mo-Bike.
-Afterwards it returns to a below 10% market share which is where the company started.
+Afterwards it returns to a below 10% market share which is where the company had started off.
+
 Moreover, you can see that I wasn't in Berlin around 18 May (the gap in the data).
 
 ![alt text](https://github.com/rikunert/bike_rentals/raw/master/rental_shares_rolling.png "Weekly rental bike market share")
 
-## Different price structures
+## Different pricing structures
 How can we explain the different market shares?
 I believe a huge factor is the availability of bikes and the cost of rentals.
 Cycling comfort probably only comes third.
@@ -63,25 +64,26 @@ The following plot shows the cost of rented bikes from different systems over ti
 
 Lime-E is strikingly expensive. However, it is also the only system offering electric-assist bikes. I predict that if Lime-E stays, these bikes will remain a luxury without much market share.
 
-Mo-Bikes dominates the market and the cost-plot shows why. For a twenty minute bike ride, they offer the cheapest deal.
+Mo-Bike dominates the market and the cost-plot shows why. For a twenty minute bike ride, they offer the cheapest deal.
 Byke is equally cheap and over time even cheaper. However, they didn't put enough bikes on the streets of Berlin in order to dominate the market.
 If Mo-Bike manages to somehow turn a profit from these tiny prices, they stand a very good chance of dominating the rental bike market for the foreseeable future.
 
-What the previous figure doesn't show are the set-up costs of different rental bike systems. Some Apps require a yearly subscription fee or a one-time deposit.
+What the previous figure doesn't show are the set-up costs of different rental bike systems. Some apps require a yearly subscription fee or a one-time deposit.
 Once one takes this into account, O-Bike is the most expensive system by far. A 79 EUR deposit is a huge barrier for new customers.
 It's really no surprise, O-Bike was so unsuccessful.
 
 ![alt text](https://github.com/rikunert/bike_rentals/raw/master/rental_costs_extra.png "Rental bike costs in Berlin including set-up costs")
 
 ## The future of rental bikes in Berlin
-There are currently huge discussions in Germany whether the new app-based rental bike systems 'litter' the streets with bikes.
+There are currently huge discussions in Germany as to whether the new app-based rental bike systems 'litter' the streets with bikes.
 I believe we will look back with envy at the summer of 2018 when there was a huge choice of different rental bikes.
 If the legal framework remains unchanged (i.e. without regulation), Mo-Bike and perhaps one other system should remain on offer.
 In the future, there will likely be less choice for Berliners and tourists who this summer quickly grew accustomed to cheap, high quality bikes at every corner, waiting for customers with smart phones.
-For cyclists, the summer of 2018 presented a wild ride.
+
+For cyclists, the summer of 2018 was a wild ride.
 
 ## Time series analysis in Python
-We start off the analysis of the data by importing the `pandas` module for data analytics and two `matplotlib` modules for plotting.
+We start off the data analysis by importing the `pandas` module for data analytics and two `matplotlib` modules for plotting.
 ```python
 # module import
 import pandas as pd
@@ -235,6 +237,7 @@ fig_day.savefig('rental_shares_day.png')
 The rolling average analysis uses the `DataFrame.rolling()` method.
 We specify a 7 period rolling average for data which we aggregated by day just before.
 If less than 4 periods during these 7 days are filled, we will get a `NaN` value.
+![alt text](https://github.com/rikunert/bike_rentals/raw/master/rental_shares_rolling.png "Weekly rental bike market share")
 ```python
 df_D = df.resample("D").sum().loc[:, 'Deezer':'sum']
 df_rolling = df_D.rolling(7, min_periods=4, center=True).sum()
