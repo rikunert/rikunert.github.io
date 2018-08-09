@@ -251,8 +251,7 @@ fig_rolling.savefig('rental_shares_rolling.png')
 ```
 Calculating the costs of different bike systems was done thanks to information in [this document](https://www.agora-verkehrswende.de/fileadmin/Projekte/2018/Stationslose_Bikesharing_Systeme/Agora_Verkehrswende_Bikesharing_WEB.pdf).
 ```python
-duration = 120  # minutes
-# without set-up costs
+duration = 120
 df_cost = pd.DataFrame(data={'Deezer': [(i//30 + 1) * 1.5 for i in range(duration)],
                         'Lidl':[(i//30 + 1) * 1.5 for i in range(30)] + [((i//30 + 1) * 1) + 0.5 for i in range(30, duration)],
                         'Mo-Bike':[(i//20 + 1) * 0.5 for i in range(duration)],
@@ -261,7 +260,7 @@ df_cost = pd.DataFrame(data={'Deezer': [(i//30 + 1) * 1.5 for i in range(duratio
                         'Byke':[(i//30 + 1) * 0.5 for i in range(duration)],
                         'Donkey':[(i//30 + 1) * 1.25 for i in range(duration)],
                         'O-Bike':[(i//30 + 1) * 1 for i in range(duration)]})
-# with set-up costs
+df_cost = df_cost[df.columns[5:-2]]#  reorder columns
 df_cost_extra = df_cost.copy()
 df_cost_extra['Lidl'] = df_cost_extra['Lidl'] + 3
 df_cost_extra['Mo-Bike'] = df_cost_extra['Mo-Bike'] + 2
