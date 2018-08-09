@@ -274,13 +274,23 @@ def cost_plotter(df):
     fig_cost, ax_cost = plt.subplots(tight_layout=True, figsize=[10, 6])
     df.plot(drawstyle="steps-post", linewidth=4, color=colours,
              ax=ax_cost,
-             alpha=0.8,
              legend=False)
     ax_cost.set(xlabel='Rental duration (minutes)',
        ylabel='Cost without deposit or subscription (EUR)',
        ylim=[0, 8],
        title='Price differences between rental bikes in Berlin')
     ax_cost.grid(visible=False, axis='x')
+
+    # additional plotting with different line styles
+    lstyle = [':', ':', ':',
+                 '-', '-', '-',
+                 ':', '-', '-']
+    for i in [1, 2, 0]:
+        df.iloc[:, i].plot(drawstyle="steps-post",
+                    linewidth=4, color=colours[i],
+                    linestyle=lstyle[i],
+            ax=ax_cost,
+            legend=False)
 
     # new legend
     x_pos = ax_cost.get_xticks()
