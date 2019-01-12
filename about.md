@@ -18,6 +18,7 @@ Check out my blog for little data science pet projects.
 For more details, see [my CV](http://rikunert.com/cv).
 
 ***
+
 ![alt text](https://github.com/rikunert/rikunert.github.io/raw/master/pictures/brainsidea_logo.png "Brain's Idea logo")
 
 My previous blog, [Brain's Idea](https://brainsidea.wordpress.com/), ran from January 2012 to March 2017, focusing on the science of the mind and brain.
@@ -27,12 +28,14 @@ At some point, a new topic asked for a new infrastructure and name.
 And so Rich Data was born.
 
 ***
+
 Comments, suggestions, job offers? Please get in touch with me on twitter ([@rikunert](https://twitter.com/rikunert)) or via e-mail (rikunert AT gmail DOT com).
 
 Special thanks to Joshua Lande and his [excellent tutorial](http://joshualande.com/jekyll-github-pages-poole) on how to set-up a website with Jekyll, and to Ben Moore for his [CV tips](http://blm.io/blog/markdown-academic-cv/)
+
 ***
 
-##Imprint
+## Imprint
 
 Dr. Richard Richard
 
