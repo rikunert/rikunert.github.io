@@ -31,11 +31,12 @@ Comments, suggestions, job offers? Please get in touch with me on twitter ([@rik
 
 Special thanks to Joshua Lande and his [excellent tutorial](http://joshualande.com/jekyll-github-pages-poole) on how to set-up a website with Jekyll, and to Ben Moore for his [CV tips](http://blm.io/blog/markdown-academic-cv/)
 ***
+
 ##Imprint
 
 Dr. Richard Richard
 
-Kirchhofstr. 12
+Kirchhofstr. 12  
 12051 Berlin
 
 rikunert[at]gmail[DOT]com
