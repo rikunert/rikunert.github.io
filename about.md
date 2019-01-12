@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About/Imprint
 ---
 
 ![alt text](https://github.com/rikunert/rikunert.github.io/raw/master/pictures/RichardKunert_002_MvD_small-300x300.jpg "Richard Kunert, PhD")
@@ -10,7 +10,10 @@ Interested in data science? Welcome to Rich Data.
 
 I did my PhD in the neurosciences of music and language at the [Max Planck Institute
 for Psycholinguistics](http://www.mpi.nl/) in Nijmegen (The Netherlands).
-Now, I am ready to help your business excel through my data analysis and visualisation skills as well as my expertise in experimental design.
+
+I am lead data scientist at [StackFuel](https://stackfuel.com/).
+
+I am ready to help your business excel through my data analysis and visualisation skills as well as my expertise in experimental design.
 Check out my blog for little data science pet projects.
 For more details, see [my CV](http://rikunert.com/cv).
 
@@ -27,3 +30,12 @@ And so Rich Data was born.
 Comments, suggestions, job offers? Please get in touch with me on twitter ([@rikunert](https://twitter.com/rikunert)) or via e-mail (rikunert AT gmail DOT com).
 
 Special thanks to Joshua Lande and his [excellent tutorial](http://joshualande.com/jekyll-github-pages-poole) on how to set-up a website with Jekyll, and to Ben Moore for his [CV tips](http://blm.io/blog/markdown-academic-cv/)
+***
+##Imprint
+
+Dr. Richard Richard
+
+Kirchhofstr. 12
+12051 Berlin
+
+rikunert[at]gmail[DOT]com
