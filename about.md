@@ -31,7 +31,7 @@ And so Rich Data was born.
 
 Comments, suggestions, job offers? Please get in touch with me on twitter ([@rikunert](https://twitter.com/rikunert)) or via e-mail (rikunert AT gmail DOT com).
 
-Special thanks to Joshua Lande and his [excellent tutorial](http://joshualande.com/jekyll-github-pages-poole) on how to set-up a website with Jekyll, and to Ben Moore for his [CV tips](http://blm.io/blog/markdown-academic-cv/)
+Special thanks to Joshua Lande and his [excellent tutorial](http://joshualande.com/jekyll-github-pages-poole) on how to set-up a website with Jekyll, and to [Plainionist](http://www.plainionist.net/Blogging-with-Jekyll-Legal-Privacy/) for the cookie consent hint.
 
 ***
 
