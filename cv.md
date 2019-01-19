@@ -2,7 +2,7 @@
 layout: page
 title: Dr. Richard Kunert
 ---
-rikunert [AT] gmail.com
+rikunert [AT] gmail [DOT] com
 |
 [github](http://github.com/rikunert)
 |
@@ -16,11 +16,14 @@ Berlin
 
 ## Currently
 
-Educational Data Scientist at [StackFuel GmbH](https://stackfuel.com/).
+Lead Data Scientist at [StackFuel GmbH](https://stackfuel.com/).
 
 ## Employment
 
-#### since 12/2017
+#### since 01/2019
+__StackFuel GmbH__ Lead Data Scientist
+
+#### 12/2017-01/2019
 __StackFuel GmbH__ Educational Data Scientist
 
 #### since 09/2017
@@ -38,7 +41,7 @@ __University of Amsterdam__ Research Assistant
 ## Education
 
 #### 01/2013-02/2017
-__Radboud University__ Cognitive Neuroscience PhD (supervisor: Peter Hagoort)
+__Radboud University__ Cognitive Neuroscience PhD (supervisor: prof. Peter Hagoort)
 
 thesis title: *Music and Language Comprehension in the Brain*
 
@@ -93,4 +96,4 @@ Robert H. Thouless Prize for Best Critical Review
 #### 07/2009
 Wellcome Trust Vacation Scholarship for Summer Research
 
-*Last updated: December 2017*
+*Last updated: January 2019*
