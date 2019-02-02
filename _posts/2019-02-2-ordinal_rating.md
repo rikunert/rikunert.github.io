@@ -1,10 +1,10 @@
 ---
 layout: post
 published: true
-permalink: ordinal_logistic
+permalink: ordinal_rating
 comments: true
 
-title: Modelling rating data correctly using ordinal logistic regression
+title: Modelling rating data correctly using ordered logistic regression
 subtitle: 70 lines of code (Python)
 tags: [data science, python, regression, ordinal, rating]
 lead: Using rating data to predict how much people will like a product is more tricky than it seems. Even though ratings often get treated as if they were a kind of measurement, they are actually a ranking. The difference is not just academic. In this blog post I show how using an appropriate model for such data improves prediction accuracy.
