@@ -85,8 +85,13 @@ The absolute difference between predicted ratings and actual ratings gives a sen
 The following code implements exactly this.
 ```Python
 from sklearn.model_selection import cross_val_score
+from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import make_scorer
 import numpy as np
+
+# divide df into features matrix and target vector
+features = df.iloc[:, :-1]  #all except quality
+target = df['quality']
 
 MAE = make_scorer(mean_absolute_error)
 folds = 5
