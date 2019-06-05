@@ -5,7 +5,7 @@ permalink: mooc_completions
 comments: true
 
 title: Predicting typical completion rates of online courses
-subtitle: 70 lines of code (Python)
+subtitle: 140 lines of code (Python)
 tags: [e-learning, MOOC, data science, python, regression, StackFuel]
 lead: Massive open online courses (MOOCs) did not revolutionize education. Why? They suffer from abysmal completion rates. Most students start a MOOC without finishing it. In this blog post I take a look at what my own company's e-learning course completion rates would be if we offered standard MOOCs.
 ---
