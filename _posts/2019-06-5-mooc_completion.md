@@ -147,7 +147,7 @@ We can clearly see that the longer the longer a MOOC takes, the lower the comple
 However, from a duration of about 10 weeks onwards, completion rates are relatively stable until 20 weeks.
 Thereafter there are hardly any data points to trust the model.
 
-## Summary
+## Predicting completion rates
 What does this mean for the courses I create at StackFuel?
 In many ways, data science courses at StackFuel are not comparable to the MOOCs of this data set.
 But let's just assume the MOOCs of six years ago could be representative of modern interactive e-learning courses.
@@ -186,7 +186,7 @@ ax.set_title(label=title_str,
 
 While one should expect a better completion rate for StackFuel's shorter course, the other two should be quite similar.
 
-## Predicting completion rates
+## Summary
 According to cross validation, the completion rates I predicted with this model are likely off by about 8%-points.
 Moreover I am quite doubtful whether the dataset is all that representative of modern data courses.
 But the following insights are interesting and might generalise:
