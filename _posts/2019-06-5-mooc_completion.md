@@ -69,6 +69,10 @@ for text in l.get_texts():
 fmt = '%.0f%%' # Format you want the ticks, e.g. '40%'
 yticks = mtick.FormatStrFormatter(fmt)
 ax.yaxis.set_major_formatter(yticks)
+
+#author line
+fig.text(0.99, 0.01, '@rikunert', color='lightgrey', style='italic',
+         horizontalalignment='right')  
 ```
 
 ![alt text](https://raw.githubusercontent.com/rikunert/MOOC_completions/master/MOOC_completions_pred_1.png "Actual completions rates of MOOCs")
