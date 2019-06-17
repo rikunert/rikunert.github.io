@@ -7,7 +7,7 @@ comments: true
 title: The surprisingly good performance of dumb classification algorithms
 subtitle: 140 lines of code (Python)
 tags: [supervised learning, classification, precision, recall, f1, accuracy, data science, python]
-lead: When evaluating binary classification algorithms it is a good idea to have a baseline for the performance measures. In this blog post I calculate the classification performance of really dumb classifiers. These models do not use any feature information. If your own classification model performance just like them, there is a problem.
+lead: When evaluating binary classification algorithms it is a good idea to have a baseline for the performance measures. In this blog post I calculate the classification performance of really dumb classifiers. These models do not use any feature information. If your own classification model performs just like them, there is a problem.
 ---
 
 ![Summary of F1-scores of dumb classifiers](https://raw.githubusercontent.com/rikunert/dumb_classifier_performance/master/f1_summary.png "F1-scores of dumb classifiers")
@@ -18,10 +18,10 @@ lead: When evaluating binary classification algorithms it is a good idea to have
 
 When evaluating whether your classification model is any good, you will probably use one of these performance measures:
 
-* precision: the proportion of true positives (actually positive case and predicted to be positive case) among predicted positive cases
-* recall: the proportion of true positives (actually positive case and predicted to be positive case) among all actually positive cases
+* precision: the proportion of true positives (actually positive cases and predicted to be positive cases) among predicted positive cases
+* recall: the proportion of true positives (actually positive cases and predicted to be positive cases) among all actually positive cases
 * F1-score: the harmonic mean of precision and recall
-* accuracy: the proportion of correctly predicted cases among all classes
+* accuracy: the proportion of correctly predicted cases among all cases
 
 Note that precision, recall and F1-score operate with a reference category.
 This is usually the target category one is interested in, for example:
@@ -46,7 +46,7 @@ The coin flip classifier predicts half the cases as belonging to the reference c
 Therefore its recall and its accuracy are always 50%.
 The precision score behaves completely differently for this dumb classifier.
 It always has the same values as the reference category proportion.
-As a result the F1-score correlates witht he proportion of reference category cases as well, albeit less strongly.
+As a result the F1-score correlates with the proportion of reference category cases as well, albeit less strongly.
 
 ![Summary of classification performance measures of a coing flip classifier](https://raw.githubusercontent.com/rikunert/dumb_classifier_performance/master/coin_flip.png "Summary of classification performance measures of a coing flip classifier")
 
