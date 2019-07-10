@@ -49,7 +49,7 @@ The orange line represents a 5%-range around the zero line.
 I would consider 5% extra hours more or less normal. That would come down to two hours in a forty hour week.
 
 It is difficult to discern a clear development in extra hours during the one and a half years.
-The LOESS-fit even slightly increases during the end of my employment even though at the point it was clear I'd leave.
+The LOESS-fit even slightly increases during the end of my employment even though at that point it was clear I'd leave.
 
 ## A potential extra hour compensation scheme
 
@@ -70,14 +70,17 @@ How do the weeks with and without extra hours compare?
 
 extra hours | number of weeks | hours outside 5% range
 --- | --- | ---
-less than 5% | 2 | 13
-within 5% range | 28 | 0
-more than 5% | 26 | 66
+less than 5% | 2 | 5
+within 5% range | 31 | 0
+more than 5% | 27 | 69
+
+31, of the 60 weeks for which I have data, lie within the 5%-range.
+27 weeks are above, totalling 69 extra hours beyond the 5%-limit.
 
 ## Conclusion
 
 Working in the Berlin start-up scene was a thrilling ride.
-While I learned a lot, the ride took its toll in terms of extra working hours.
+While I learned a lot, the ride took its toll in terms of working extra hours.
 Whether the benefits outweigh the costs, is a personal decision.
 An analysis, like the one presented here, can help to ground the decision in data.
 
