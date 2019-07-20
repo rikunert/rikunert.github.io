@@ -16,11 +16,14 @@ Berlin
 
 ## Currently
 
-Lead Data Scientist at [StackFuel GmbH](https://stackfuel.com/).
+Data Scientist at [Secret Scapes](https://www.secretescapes.com/).
 
 ## Employment
 
-#### since 01/2019
+#### since 07/2019
+__Secret Escapes__ Data Scientist
+
+#### 01/2019-07/2019
 __StackFuel GmbH__ Lead Data Scientist
 
 #### 12/2017-01/2019
@@ -96,4 +99,4 @@ Robert H. Thouless Prize for Best Critical Review
 #### 07/2009
 Wellcome Trust Vacation Scholarship for Summer Research
 
-*Last updated: January 2019*
+*Last updated: July 2019*
