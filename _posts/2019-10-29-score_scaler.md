@@ -38,7 +38,7 @@ In order to scale according to the full scales, I wrote a new scaler which follo
 
 Note that the $min()$ and $max()$ in this case does not refer to the _observed_ minima and maxima but instead to the _theoretically possible_ minima and maxima on the respective scales. Translated into Python code this would look like this:
 
-```Python
+```python
 def score_scale_fun(X, scores_old_min, scores_old_max, scores_new_min=0, scores_new_max=1):
     X = scores_new_max - ((scores_new_max - scores_new_min) * (scores_old_max - X) / (scores_old_max - scores_old_min))
     return X
@@ -46,7 +46,7 @@ def score_scale_fun(X, scores_old_min, scores_old_max, scores_new_min=0, scores_
 
 Let's translate the scores of our example to a common scale from zero to five stars using this function. Note that the German grading scale is reversed, meaning that the worst possible score (6) should be seen as the minimum.
 
-```
+```python
 print(score_scale_fun(3, scores_old_min=1, scores_old_max=5, scores_new_min=0, scores_new_max=5))
 print(score_scale_fun(70, scores_old_min=0, scores_old_max=
   100, scores_new_min=0, scores_new_max=5))
