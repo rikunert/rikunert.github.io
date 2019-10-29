@@ -7,7 +7,7 @@ comments: true
 title: Transforming from one scale to another
 subtitle: 90 lines of code (Python)
 tags: [scikit learn, sklearn, scaling, scale, score, MinMaxScaler, data science, python]
-lead: Transforming data from one scale to another is such a common task as a data scientist. This blog post explains what your options are in the popular sklearn Python module. I have always missed one particular scaler, so in this blog post I write it myself, the ScoreScaler.
+lead: Transforming data from one scale to another is such a common task as a data scientist. This blog post goes beyond the options found in sklearn. I have always missed one particular scaler, so in this blog post I write it myself: the ScoreScaler.
 ---
 
 ![Formula of ScoreScaler](https://raw.githubusercontent.com/rikunert/unitsscaler/master/formula_pic.png "Formula of ScoreScaler")
@@ -155,7 +155,7 @@ class ScoreScaler(BaseEstimator, TransformerMixin):
         return X
 ```
 
-Such a transformer requires at first and an initialisation followed by the use of the object's `scaler.fit_transform()` method.
+Such a transformer requires at first an initialisation followed by the use of the object's `scaler.fit_transform()` method.
 
 ```python
 scaler = ScoreScaler(scores_old_min=1, scores_old_max=5, scores_new_min=0, scores_new_max=5)
