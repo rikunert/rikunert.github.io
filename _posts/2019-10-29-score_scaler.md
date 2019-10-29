@@ -7,10 +7,10 @@ comments: true
 title: Transforming from one scale to another
 subtitle: 90 lines of code (Python)
 tags: [scikit learn, sklearn, scaling, scale, score, MinMaxScaler, data science, python]
-lead: Transforming data from one scale to another is such a common task as a data scientist. This blog post explains what your options are in the popular `sklearn` Python module. I have always missed one particular scaler, so in this blog post I write it myself, the `ScoreScaler`.
+lead: Transforming data from one scale to another is such a common task as a data scientist. This blog post explains what your options are in the popular sklearn Python module. I have always missed one particular scaler, so in this blog post I write it myself, the ScoreScaler.
 ---
 
-![](https://raw.githubusercontent.com/rikunert/unitsscaler/master/formula_pic.png "")
+![Formula of ScoreScaler](https://raw.githubusercontent.com/rikunert/unitsscaler/master/formula_pic.png "Formula of ScoreScaler")
 
 <!--excerpt-->
 
@@ -34,9 +34,7 @@ However, they all scale according to the observed data. Theoretical minima and m
 
 In order to scale according to the full scales, I wrote a new scaler which follows this formula:
 
-\begin{align}
-score_{new} = \color{orange}{max(scores_{new})} - \color{blue}{(max(scores_{new})-min(scores_{new}))} \cdot \color{red}{\frac{max(scores_{old})-score_{old}}{max(scores_{old})-min(scores_{old})}}
-\end{align}
+![Formula of ScoreScaler](https://raw.githubusercontent.com/rikunert/unitsscaler/master/formula_pic.png "Formula of ScoreScaler")
 
 Note that the $min()$ and $max()$ in this case does not refer to the _observed_ minima and maxima but instead to the _theoretically possible_ minima and maxima on the respective scales. Translated into Python code this would look like this:
 
