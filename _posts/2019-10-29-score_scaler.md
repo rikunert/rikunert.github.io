@@ -36,7 +36,7 @@ In order to scale according to the full scales, I wrote a new scaler which follo
 
 ![Formula of ScoreScaler](https://raw.githubusercontent.com/rikunert/unitsscaler/master/formula_pic.png "Formula of ScoreScaler")
 
-Note that the $min()$ and $max()$ in this case does not refer to the _observed_ minima and maxima but instead to the _theoretically possible_ minima and maxima on the respective scales. Translated into Python code this would look like this:
+Note that the _min()_ and _max()_ in this case does not refer to the _observed_ minima and maxima but instead to the _theoretically possible_ minima and maxima on the respective scales. Translated into Python code this would look like this:
 
 ```python
 def score_scale_fun(X, scores_old_min, scores_old_max, scores_new_min=0, scores_new_max=1):
