@@ -157,7 +157,7 @@ class ScoreScaler(BaseEstimator, TransformerMixin):
 
 Such a transformer requires at first and an initialisation followed by the use of the object's `scaler.fit_transform()` method.
 
-```Python
+```python
 scaler = ScoreScaler(scores_old_min=1, scores_old_max=5, scores_new_min=0, scores_new_max=5)
 scaler.fit_transform(X)
 ```
