@@ -10,7 +10,7 @@ tags: [data science, R, SMOTE, machine learning, classification, function, boxpl
 lead: Using a machine learning algorithm out of the box is problematic when one class in the training set dominates the other. Synthetic Minority Over-sampling Technique (SMOTE) solves this problem. In this tutorial I'll walk you through how SMOTE works and then how the SMOTE function code works.
 ---
 
-![alt text](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_0.png "Class imbalance problems can be addressed by SMOTE (Synthetic Minority Over-sampling Technique)")
+![https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_0.png](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_0.png "Class imbalance problems can be addressed by SMOTE (Synthetic Minority Over-sampling Technique)")
 
 <!--excerpt-->
 
@@ -43,7 +43,7 @@ dat = iris[c(2, 9, 16, 23, 51:63),
 62          5.9         3.0 versicolor
 63          6.0         2.2 versicolor
 ```
-![alt text](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_1.png "Class imbalance problems can be addressed by SMOTE (Synthetic Minority Over-sampling Technique)")
+![https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_1.png](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_1.png "Class imbalance problems can be addressed by SMOTE (Synthetic Minority Over-sampling Technique)")
 
 You can easily see that the setosa flowers in red cluster in the top left and the green versicolor flowers in the bottom right. Unfortunately though, there are only 4 red flowers in the sample compared to 13 green flowers. All a machine learning algorithm sees is the domination of green flowers.
 
@@ -63,7 +63,7 @@ This blog post is exclusively about the first solution: synthesis of new minorit
 ## How does SMOTE resolve the class imbalance problem?
 SMOTE synthesises new minority instances between existing (real) minority instances. Imagine that SMOTE draws lines between existing minority instances like this.
 
-![alt text](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_2.png "Lines represent potential SMOTE synthetic data point positions.")
+![https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_2.png](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_2.png "Lines represent potential SMOTE synthetic data point positions.")
 
 SMOTE then imagines new, synthetic minority instances somewhere on these lines.
 
@@ -74,7 +74,7 @@ dat_plot = SMOTE(dat[,1:2],  # feature values
               as.numeric(dat[,3]),  # class labels
               K = 3, dup_size = 0)  # function parameters
 ```
-![alt text](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_3.png "SMOTE synthesises new minority instances between existing minoriry instances.")
+![https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_3.png](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_3.png "SMOTE synthesises new minority instances between existing minoriry instances.")
 
 After synthesising new minority instances, the imbalance shrinks from 4 red versus 13 green to 12 red versus 13 green. Red flowers now dominate within the ranges typical for red flowers on both axes.
 
@@ -83,19 +83,19 @@ The `SMOTE()` of [`smotefamily`](https://cran.r-project.org/web/packages/smotefa
 
 `SMOTE()` thinks from the perspective of existing minority instances and synthesises new instances at some distance from them towards one of their neighbours. Which neighbours are considered for each existing minority instance?
 
-At `K = 1` only the closest neighbour of the same class is considered. Let's take the bottom right, red data point. By drawing a concentric circle around the dot on the plot, we can easily see that the top left flower is its closest neighbour. Thus, at `K = 1` `SMOTE()` synthesises a new minority instance on the line between these two dots when the bottom right flower is considered.
+At `K = 1` only the closest neighbour of the same class is considered. Let's take the bottom right, red data point. By drawing a circle around the dot on the plot, we can easily see that the top left flower is its closest neighbour. Thus, at `K = 1` `SMOTE()` synthesises a new minority instance on the line between these two dots when the bottom right flower is considered.
 
-![alt text](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_4.png "At K = 1 SMOTE synthesises new minority instances only between an instance its closest neighbour.")
+![https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_4.png](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_4.png "At K = 1 SMOTE synthesises new minority instances only between an instance its closest neighbour.")
 
 At `K = 2` both the closest and the second closest neighbours are considered. For each new synthesis, a new one is randomly chosen between them.
 
-![alt text](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_5.png "At K = 2, SMOTE synthesises new minority instances only between an instance and its 2 closest neighbours.")
+![https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_5.png](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_5.png "At K = 2, SMOTE synthesises new minority instances only between an instance and its 2 closest neighbours.")
 
 In general, one might say that `SMOTE()` loops through the existing, real minority instance. At each loop iteration, one of the `K` closest minority class neighbours is chosen and a new minority instance is synthesised somewhere between the minority instance and that neighbour.
 
 The `dup_size` parameter answers the question how many times `SMOTE()` should loop through the existing, real minority instances. Therefore at `dup_size = 1` only 4 new data points are synthesised (1 for each existing minority instance). At `dup_size = 200`, 800 new data points get synthesised.
 
-![alt text](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_6.png "At dup_size = 200, each existing minority instance gets used 200 times to generate a new, synthetic minority instance with SMOTE.")
+![https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_6.png](https://raw.githubusercontent.com/rikunert/SMOTE_visualisation/master/SMOTE_R_visualisation_6.png "At dup_size = 200, each existing minority instance gets used 200 times to generate a new, synthetic minority instance with SMOTE.")
 
 `dup_size = 0` is a special case which uses the optimal number of minority class resuses in order to reach parity with the majority class.
 

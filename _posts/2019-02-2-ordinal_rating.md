@@ -33,7 +33,7 @@ Let's take an example. I will use a data set of 4898 Portuguese white wine ratin
 
 We start off by importing the data directly from the Internet and saving it in a `DataFrame` called `df`.
 
-```Python
+```python
 import pandas as pd
 df = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv', sep=';')
 ```
@@ -58,7 +58,7 @@ Does it perform better than linear or logistic regression?
 
 Let's prepare the model evaluation.
 
-```Python
+```python
 # choose models
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from mord import LogisticAT
@@ -83,7 +83,7 @@ The ratings in the remaining 20% of the data are predicted.
 The absolute difference between predicted ratings and actual ratings gives a sense of the accuracy of each model.
 
 The following code implements exactly this.
-```Python
+```python
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import make_scorer
@@ -147,7 +147,7 @@ Everything else is counted as a prediction failure.
 Accuracy is equivalent to the propotion of successes.
 
 The following code implements exactly this.
-```Python
+```python
 from sklearn.metrics import accuracy_score
 
 def acc_fun(target_true, target_fit):
