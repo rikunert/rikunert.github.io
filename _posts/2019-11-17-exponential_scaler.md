@@ -193,7 +193,7 @@ The head of the `DataFrame` shows only the lower end of the scale.
 Notice how the lowest 1% get shrunk to the lowest 0.5% when using `exponent=2.5`.
 
 original data |	exponent: 1 |	exponent: 2.5 |	exponent: 5 |	exponent: 10 |	exponent: 20
----|---|---|---|---|---|---
+---|---|---|---|---|---
 0.00 	0.00 	0.000000 	0.000000 	0.000000 	0.000000e+00
 0.01 	0.01 	0.005409 	0.001645 	0.000102 	2.099898e-07
 0.02 	0.02 	0.010898 	0.003357 	0.000214 	4.634360e-07
