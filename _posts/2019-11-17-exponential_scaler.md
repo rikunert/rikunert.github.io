@@ -7,7 +7,7 @@ comments: true
 title: Exponentially scaling your data in order to zoom in on small differences
 subtitle: 90 lines of code (Python)
 tags: [scikit learn, sklearn, scaling, scale, score, exponential, skew, MinMaxScaler, data science, python]
-lead: One often deals with data in which most data points differ at the lower end of the scale. Take conversion rate. Most customers show a very low conversion rate. Only very few "super shoppers" spend a lot of money at a business. Therefore, it is often interesting to zoom in on the area of a scale where most data points show small differences. In this blog post I present an exponential scaler which does exactly that: zoom in on the lower or higher end of the scale in order to focus a machine learning model on the differences that count the most.
+lead: One often deals with data in which most data points differ at the lower end of the scale. Take conversion rate. Most customers show a very low conversion rate. Only very few "super shoppers" spend a lot of money at a business. Therefore, it is often interesting to zoom in on the area of a scale where most data points show small differences. In this blog post I present an exponential scaler which does exactly that. It zooms in on the lower or higher end of the scale in order to focus a machine learning model on the differences that count the most.
 ---
 
 ![The effect of a negative exponent](https://raw.githubusercontent.com/rikunert/exponential_scaler/master/expo_viz_neg.png "The effect of a negative exponent: small differences get exaggerated")
