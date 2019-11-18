@@ -7,7 +7,7 @@ comments: true
 title: Exponentially scaling your data in order to zoom in on small differences
 subtitle: 100 lines of code (Python)
 tags: [scikit learn, sklearn, scaling, scale, score, exponential, skew, MinMaxScaler, data science, python]
-lead: Machine learning models benefit from zooming in on the area of a scale where most data points show small differences. In this blog post I present an exponential scaler which does exactly that. It zooms in on the lower or higher end of the scale in order to focus a machine learning model on the differences that count the most.
+lead: Machine learning models benefit from zooming in on the area of a scale where most data points show differences. In this blog post I present an exponential scaler which does exactly that. It zooms in on the lower or higher end of the scale in order to focus a machine learning model on the differences that count the most.
 ---
 
 ![The effect of a negative exponent](https://raw.githubusercontent.com/rikunert/exponential_scaler/master/expo_viz_neg.png "The effect of a negative exponent: small differences get exaggerated")
@@ -16,13 +16,15 @@ lead: Machine learning models benefit from zooming in on the area of a scale whe
 
 ## Developing a zooming function into small differences between data points
 
-Zooming into small differences between data points is equivalent to increasing the distance between scores at the lower end of the scale and reducing the distance between scores at the higher end of the scale.
+Many measures show so-called floor effects. Nearly all data points are near the floor of the scale. Take conversion rate for example. The likelihood to purchase a product is typically very low except for highly unusual super shoppers. Therefore, modeling conversion rate might benefit from zooming in on small differences near the bottom of the scale.
+
+Zooming in on small differences between data points is equivalent to increasing the distance between scores at the lower end of the scale and reducing the distance between scores at the higher end of the scale.
 Ideally, we would want a function which zooms in on the end of the scale where most data points lie.
 Such a scaling function should allow the user to control how extreme the zoom is.
 
 Many text books suggest the transformation `1/x`.
 Another way to write this is `x**(-1)`, the score `x` to the power of `-1`.
-The exponent `-1` control how extreme the zoom is. The further away from zero, the stronger the zoom.
+The exponent `-1` controls how extreme the zoom is. The further away from zero, the stronger the zoom.
 
 While this is the core of the exponential scaler function `exp_scale_fun()` which I present in this blog post, I want to add three small adjustments.
 I want the `exp_scale_fun()` to not only have a variable scaling parameter via the exponent, I want it to also:
@@ -64,7 +66,7 @@ data = np.linspace(0, 1, 101)
 df = pd.DataFrame({'original data': data}, index=data)
 ```
 
-We will try out six different negative exponents which zoom in on small differences to an increasing extent.
+We will try out five different negative exponents which zoom in on small differences to an increasing extent.
 
 ```python
 for exponent in [-1, -2.5, -5, -10, -20]:
@@ -85,7 +87,7 @@ original data |	exponent: -1 |	exponent: -2.5 |	exponent: -5 |	exponent: -10 |	e
 We can find the desired properties back in the transformed data:
 * The minimum (`0.00`) remains unchanged; see first row below header. The same is true for the maximum but this is not visible in the head of the `DataFrame`.
 * The order of the scores is unchanged: they increase in all columns when going down the rows.
-* When going from left to right, we can see how the zoom gets increasingly more extreme. The first 1% of the scale get exaggerated to be the the bottom 2% of the scale when transformed with `exp_scale_fun()` and `exponent=-1`. This zoom is even more extreme in the right most column (`exponent=-20`). There the zoom on the bottom 1% of the scale is 18 fold.
+* When going from left to right, we can see how the zoom gets increasingly more extreme. The bottom 1% of the scale get exaggerated to be the the bottom 2% of the scale when transformed with `exp_scale_fun()` and `exponent=-1`. This zoom is even more extreme in the right most column (`exponent=-20`). There the zoom on the bottom 1% of the scale is 18 fold.
 
 The function `transformation_viz_fun()` visualises original data (x-axis) and transformed data (y-axis).
 
@@ -178,7 +180,8 @@ There are three things to note in this plot:
 
 ## Positive exponents
 
-If you desire the opposite behaviour, i.e. an zooming into the upper end of the scale, just use a positive exponent.
+If you desire the opposite behaviour, i.e. an zooming into the upper end of the scale, just use a positive exponent. This is useful when the data show a so-called ceiling effect, i.e. most data points cluster around the top of the scale.
+
 We can use nearly the same code again in order to observe the effect.
 
 ```python
@@ -194,11 +197,11 @@ Notice how the lowest 1% get shrunk to the lowest 0.5% when using `exponent=2.5`
 
 original data |	exponent: 1 |	exponent: 2.5 |	exponent: 5 |	exponent: 10 |	exponent: 20
 ---|---|---|---|---|---
-0.00 	0.00 	0.000000 	0.000000 	0.000000 	0.000000e+00
-0.01 	0.01 	0.005409 	0.001645 	0.000102 	2.099898e-07
-0.02 	0.02 	0.010898 	0.003357 	0.000214 	4.634360e-07
-0.03 	0.03 	0.016469 	0.005138 	0.000336 	7.687683e-07
-0.04 	0.04 	0.022122 	0.006989 	0.000469 	1.135945e-06
+0.00 |	0.00 |	0.000000 |	0.000000 |	0.000000 |	0.000000
+0.01 |	0.01 |	0.005409 |	0.001645 |	0.000102 |	0.000000
+0.02 |	0.02 |	0.010898 |	0.003357 |	0.000214 |	0.000000
+0.03 |	0.03 |	0.016469 |	0.005138 |	0.000336 |	0.000000
+0.04 |	0.04 |	0.022122 |	0.006989 |	0.000469 |	0.000000
 
 What would the original and transformed data look like together in the line chart?
 
@@ -213,7 +216,10 @@ Notice how an increasingly large exponent leads to an increasingly large deviati
 ## Conclusion
 
 In my experience it is worth exaggerating small differences in many features and often also in the target variable of a machine learning problem.
-Feature engineering can use such transformations in order to help a machine learning model to focus on the low or upper end of a scale.
+Feature engineering can use such transformations in order to help a machine learning model to focus on the low or upper end of a scale. However, take care and experiment a bit when using the exponential scaler if:
+* the exponent lies between -1 and 1 (I only used exponents outside this range)
+* your data  is very large (the effect does not scale linearly for larger data)
+
 Let me know if `exp_scale_fun()` has helped you to improve your modeling efforts.
 
 The complete code to recreate the analyses and plots of this blog post can, as always, be found on github [here](https://github.com/rikunert/exponential_scaler).
