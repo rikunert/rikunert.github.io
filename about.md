@@ -11,7 +11,7 @@ Interested in data science? Welcome to Rich Data.
 I did my PhD in the neurosciences of music and language at the [Max Planck Institute
 for Psycholinguistics](http://www.mpi.nl/) in Nijmegen (The Netherlands).
 
-I am lead data scientist at [StackFuel](https://stackfuel.com/).
+I am data scientist at [Secret Escapes](https://www.secretescapes.de/).
 
 I am ready to help your business excel through my data analysis and visualisation skills as well as my expertise in experimental design.
 Check out my blog for little data science pet projects.
