@@ -112,7 +112,7 @@ Either way, the data show that Germany's approach has been quite successful in s
 Whether it is already time to leave this path is debatable.
 It all depends on which estimate of the doubling time one should trust.
 
-The complete code to recreate the analyses and plots of this blog post can, as always, be found on github [here](https://github.com/rikunert/corona/blob/master/init.ipynb).
+The complete code to recreate the analyses and plots of this blog post can, as always, be found on github [here](https://github.com/rikunert/corona/blob/master/doubling_time.ipynb).
 
 ***
 
