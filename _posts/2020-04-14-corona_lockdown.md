@@ -66,7 +66,7 @@ That was followed by March, a month in which nearly all countries went into some
 
 ## Conclusion
 
-I remember the conversations in Janurary when the Chinese government locked down Hubei province.
+I remember the conversations in January when the Chinese government locked down Hubei province.
 Similar measures in Europe were frankly completely unthinkable.
 And yet, China only offered us a glimpse into our own future.
 
