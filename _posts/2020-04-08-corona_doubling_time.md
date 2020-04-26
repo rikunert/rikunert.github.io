@@ -77,7 +77,7 @@ If you do this for every day of the outbreak and apply a seven day moving averag
 
 ![Day to day increase in total Covid-19 cases in Germany](https://raw.githubusercontent.com/rikunert/corona/master/D_doubling_prospective.png "Day to day increase in total Covid-19 cases in Germany")
 
-Second, you assume for each day, that the percent increase continues indefinitely and calculate how it would take for cases to double under this assumption.
+Second, you assume for each day, that the percent increase continues indefinitely and calculate how long it would take for cases to double under this assumption.
 I handily found the formula for this calculation [here](https://blog.datawrapper.de/weekly-chart-coronavirus-doublingtimes/).
 Using such an exponential model, the German government's 14 day aim translates to a 5.1% day to day increase.
 
@@ -86,7 +86,7 @@ The result looks like this.
 
 ![Doubling time assuming an exponential model for total Covid-19 case growth in Germany](https://raw.githubusercontent.com/rikunert/corona/master/D_doubling_prospective_days_exponential.png "Doubling time assuming an exponential model for total Covid-19 case growth in Germany")
 
-While data sources vary and the window of the moving average is different for different sources, this is the doubling time that is widely reported.
+While data sources vary and the moving window size is different for different sources, this is the doubling time that is widely reported.
 It is already within the 12 to 14 day window which the German government aims for.
 
 ## An alternative, linear prospective model of Covid-19 doubling time
