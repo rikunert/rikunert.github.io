@@ -60,13 +60,13 @@ The following gif shows how Italy paved the way and the rest followed.
 
 ![Gif of the policy restriction severity in Europe](https://raw.githubusercontent.com/rikunert/corona/master/severity_gif/corona_lockdown_timeline_100dpi.gif "Gif of the policy restriction severity in Europe (Sars-Cov-2, Covid-19, Corona))")
 
-By combining temporal and geographical information one gets a feeling for how Europe respnded to Covid-19.
+By combining temporal and geographical information one gets a feeling for how Europe responded to Covid-19.
 While ignoring the virus during the month of January, February saw Italy react harshly.
 That was followed by March, a month in which nearly all countries went into some form of lockdown led by Italy.
 
 ## Conclusion
 
-I remember the conversations in Janurary when the Chinese government locked down Hubei province.
+I remember the conversations in January when the Chinese government locked down Hubei province.
 Similar measures in Europe were frankly completely unthinkable.
 And yet, China only offered us a glimpse into our own future.
 
