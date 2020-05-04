@@ -37,7 +37,7 @@ Special thanks to Joshua Lande and his [excellent tutorial](http://joshualande.c
 
 ## Imprint
 
-Dr. Richard Richard
+Dr. Richard Kunert
 
 Kirchhofstr. 12  
 12051 Berlin
