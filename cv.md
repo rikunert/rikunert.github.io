@@ -16,11 +16,17 @@ Berlin
 
 ## Currently
 
-Data Scientist at [Secret Scapes](https://www.secretescapes.com/).
+Head of Data Science at [Turbit](https://www.turbit.com/).
 
 ## Employment
 
-#### since 07/2019
+#### since 12/2021
+__Turbit__ Head of Data Science
+
+#### 03/2021-11/2021
+__Secret Escapes__ Team Lead Data Science
+
+#### 07/2019-03/2021
 __Secret Escapes__ Data Scientist
 
 #### 01/2019-07/2019
@@ -71,13 +77,12 @@ Popular science activities including
 
 ## Data science experience
 
+* Python (`numpy`, `pandas`, `scikit learn`, `tensorflow`)
+* classical and neural network based machine learning
 * R
-* Python
 * Matlab
 * Shiny
-* Jekyll
-* Statistics (frequentist and Bayesian)
-* Data visualisation
+* Data visualisation (`matplotlib`, `plotly`, `ggplot2`)
 
 ## Awards
 
@@ -99,4 +104,4 @@ Robert H. Thouless Prize for Best Critical Review
 #### 07/2009
 Wellcome Trust Vacation Scholarship for Summer Research
 
-*Last updated: July 2019*
+*Last updated: February 2022*
